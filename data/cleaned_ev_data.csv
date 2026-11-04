@@ -1,0 +1,2001 @@
+brand,market_segment,model,year,price_usd
+Volkswagen,Luxury,ID. Buzz,2023,104880.8
+Toyota,Mid-range,bZ Compact SUV,2022,48217.41
+GM/Chevrolet,Mid-range,Bolt EV,2024,49651.12
+Kia,Mid-range,Sportage EV,2024,38131.56
+Tesla,Luxury,Model 3,2022,144079.87
+Tesla,Luxury,Model Y,2023,119590.27
+Tesla,Luxury,Model 3,2024,128427.66
+Mercedes,Luxury,EQS,2025,131074.23
+Kia,Premium,Niro EV,2021,80530.57
+GM/Chevrolet,Mid-range,Blazer EV,2025,56944.53
+Tesla,Luxury,Model S,2026,134165.81
+Fisker,Premium,Ronin,2025,88914.19
+Mercedes,Luxury,EQG,2025,210811.92
+BYD,Budget,Seagull,2023,16394.33
+Tesla,Premium,Model 3,2024,95912.83
+Tesla,Luxury,Model S,2024,134964.13
+BYD,Mid-range,Atto 3,2024,64427.02
+Hyundai,Mid-range,Kona Electric,2024,63139.95
+Volkswagen,Premium,ID.4,2024,77030.0
+BYD,Premium,Atto 3,2024,72336.67
+Kia,Luxury,Picanto EV,2025,106848.2
+Tesla,Premium,Cybertruck,2023,70531.96
+BYD,Luxury,Yuan Plus,2024,114839.62
+Volkswagen,Mid-range,ID.5,2024,51142.17
+Volkswagen,Mid-range,ID. Aero,2026,59824.88
+Ford,Premium,Mustang Mach-E,2025,96527.54
+Tesla,Premium,Model X,2023,67772.81
+Hyundai,Premium,Ioniq 6,2025,86045.75
+Kia,Premium,EV9,2024,66876.75
+Tesla,Luxury,Model Y,2025,135780.6
+Kia,Luxury,Niro EV,2024,105946.66
+Tesla,Luxury,Model X,2025,110771.86
+Tesla,Mid-range,Cybertruck,2024,42827.24
+Toyota,Premium,bZ Compact SUV,2020,70748.34
+Fisker,Mid-range,Ronin,2026,50395.94
+Ford,Premium,E-Transit,2025,69597.51
+BYD,Budget,Leaf 50X,2025,31434.26
+Tesla,Luxury,Model X,2023,109503.65
+BMW,Luxury,i7,2025,156773.89
+Volkswagen,Mid-range,ID.3,2021,52966.98
+Tesla,Luxury,Cybertruck,2024,121805.3
+Hyundai,Premium,Ioniq 6,2025,69769.46
+Tesla,Luxury,Model X,2024,117517.98
+Audi,Mid-range,e-tron GT,2025,53762.11
+BYD,Budget,Max,2024,24029.61
+BMW,Luxury,i3,2024,120387.4
+BYD,Budget,Atto 3,2025,26682.38
+Hyundai,Mid-range,Ioniq,2025,45100.09
+Kia,Premium,Sportage EV,2023,77484.79
+Tesla,Premium,Model Y,2023,98108.77
+Fisker,Luxury,Ronin,2020,143106.79
+Ford,Mid-range,F-150 Lightning,2026,52266.72
+NIO,Mid-range,ET6,2025,60624.73
+Audi,Mid-range,e-tron GT,2025,63332.23
+Kia,Premium,Sportage EV,2024,95244.75
+Rivian,Premium,R3,2024,66816.36
+Tesla,Premium,Model X,2025,73015.63
+Tesla,Luxury,Cybertruck,2025,117415.98
+Tesla,Premium,Model 3,2025,71316.86
+BYD,Mid-range,Leaf 50X,2025,59005.52
+Volkswagen,Mid-range,ID. Aero,2024,42431.05
+BYD,Budget,Dolphin,2024,30671.06
+Mercedes,Luxury,EQC,2025,188302.14
+Volkswagen,Premium,ID.4,2023,94330.19
+BYD,Premium,Dolphin,2024,83518.44
+Kia,Premium,Niro EV,2024,68436.66
+Tesla,Mid-range,Model Y,2025,43196.41
+Ford,Premium,Explorer EV,2024,66402.61
+Tesla,Mid-range,Model X,2024,42932.18
+Porsche,Luxury,Macan Electric,2022,101897.93
+Ford,Mid-range,E-Transit,2025,45539.59
+Tesla,Premium,Model S,2024,66707.72
+Tesla,Luxury,Model S,2020,102900.51
+Ford,Premium,Explorer EV,2024,69723.4
+GM/Chevrolet,Luxury,Bolt EUV,2025,102049.38
+GM/Chevrolet,Premium,Equinox EV,2024,78668.52
+Ford,Premium,Mustang Mach-E,2024,79438.2
+Tesla,Luxury,Model 3,2024,139025.28
+Volkswagen,Mid-range,ID.3,2025,38889.44
+Tesla,Luxury,Model 3,2025,169366.43
+Mercedes,Luxury,GLE EV,2023,144581.79
+BMW,Premium,iX,2023,86081.93
+BYD,Luxury,Max,2026,101561.3
+Tesla,Luxury,Cybertruck,2024,158925.9
+BYD,Budget,Yuan Plus,2023,21523.03
+BYD,Luxury,Leaf 50X,2024,100360.19
+GM/Chevrolet,Mid-range,Bolt EUV,2026,63696.78
+BMW,Premium,i3,2024,84405.92
+Audi,Premium,Q6 e-tron,2024,73910.79
+Hyundai,Mid-range,Ioniq 5,2025,57904.84
+Tesla,Mid-range,Cybertruck,2024,38394.15
+GM/Chevrolet,Premium,Bolt EUV,2026,71136.28
+GM/Chevrolet,Premium,Blazer EV,2024,76560.48
+Kia,Premium,Niro EV,2023,92594.29
+Ford,Premium,Mustang Mach-E,2023,76072.0
+Hyundai,Mid-range,Ioniq,2024,44654.99
+Hyundai,Mid-range,Ioniq 6,2025,45837.99
+Volkswagen,Premium,ID.4,2023,80921.96
+Tesla,Luxury,Model X,2023,184745.86
+Tesla,Luxury,Cybertruck,2024,177944.09
+Tesla,Mid-range,Cybertruck,2024,59967.87
+BMW,Premium,iX,2024,84125.95
+BYD,Mid-range,Qin,2022,37515.42
+Hyundai,Premium,Kona Electric,2022,84513.62
+Audi,Premium,e-tron,2025,80343.06
+BYD,Premium,Leaf 50X,2025,75747.87
+Volkswagen,Mid-range,ID.3,2024,50097.49
+GM/Chevrolet,Mid-range,Bolt EUV,2024,43668.28
+BYD,Mid-range,Qin,2025,61700.64
+Tesla,Luxury,Model 3,2025,152706.13
+BYD,Budget,Max,2023,26461.18
+Tesla,Mid-range,Model 3,2026,36489.36
+Rivian,Mid-range,R3,2021,60978.95
+Ford,Mid-range,F-150 Lightning,2025,57536.04
+BMW,Luxury,i3,2025,162822.68
+Mercedes,Luxury,EQG,2023,163924.89
+Ford,Mid-range,F-150 Lightning,2024,54997.37
+Tesla,Premium,Model Y,2026,96644.91
+Audi,Premium,e-tron,2025,72972.25
+Kia,Mid-range,Niro EV,2023,38796.18
+Ford,Mid-range,Mustang Mach-E,2023,59885.41
+Audi,Luxury,Q6 e-tron,2024,130606.12
+BYD,Mid-range,Atto 3,2024,47823.41
+Tesla,Premium,Model S,2023,65004.86
+BYD,Budget,Qin,2024,21712.4
+Volkswagen,Mid-range,ID. Aero,2024,54335.65
+Ford,Mid-range,Explorer EV,2024,53737.95
+Mercedes,Premium,GLE EV,2026,68994.81
+Tesla,Luxury,Model Y,2024,105607.38
+Hyundai,Premium,i30,2025,97964.98
+Volkswagen,Mid-range,ID. Buzz,2025,60229.21
+BYD,Mid-range,Leaf 50X,2025,41881.7
+Tesla,Luxury,Model 3,2024,138760.96
+BYD,Premium,Atto 3,2025,90653.56
+NIO,Mid-range,EL8,2022,53544.18
+BYD,Budget,Dolphin,2025,27390.16
+Hyundai,Premium,Ioniq 5,2025,94028.85
+GM/Chevrolet,Mid-range,Bolt EV,2025,59620.99
+Volkswagen,Premium,ID. Buzz,2025,78713.93
+Fisker,Mid-range,Ocean,2022,59484.88
+Toyota,Mid-range,bZ4X,2025,62345.64
+BYD,Budget,Dolphin,2023,33904.31
+Hyundai,Mid-range,Kona Electric,2025,40497.64
+BYD,Premium,Dolphin,2024,89340.39
+BYD,Premium,Seagull,2023,77902.26
+Tesla,Premium,Model S,2025,67489.81
+Kia,Premium,Sportage EV,2025,99993.15
+Hyundai,Budget,Ioniq,2024,29445.04
+Tesla,Mid-range,Cybertruck,2024,57586.87
+BYD,Mid-range,Dolphin,2023,50127.13
+Audi,Luxury,Q6 e-tron,2024,112837.91
+BYD,Budget,Max,2023,29372.26
+Tesla,Mid-range,Model Y,2024,40219.61
+Hyundai,Mid-range,i30,2025,51159.74
+Porsche,Luxury,Taycan,2024,142936.98
+BYD,Premium,Qin,2024,99381.36
+BMW,Luxury,i3,2024,109123.19
+Ford,Mid-range,F-150 Lightning,2026,51712.72
+BYD,Budget,Seagull,2024,19470.99
+GM/Chevrolet,Mid-range,Blazer EV,2025,46970.49
+Volkswagen,Premium,ID. Buzz,2025,93619.57
+BMW,Luxury,iX,2025,124852.49
+BMW,Premium,i5,2025,97046.62
+Hyundai,Premium,Ioniq,2021,81529.22
+Tesla,Luxury,Model 3,2023,123494.48
+Mercedes,Luxury,GLE EV,2024,194076.68
+BYD,Mid-range,Qin,2021,47541.74
+Tesla,Luxury,Model S,2022,133033.76
+Tesla,Mid-range,Model X,2023,41055.46
+Kia,Mid-range,EV6,2022,59652.7
+BMW,Premium,i4,2023,76874.69
+Tesla,Budget,Model Y,2024,31623.12
+Hyundai,Mid-range,Kona Electric,2025,43168.2
+BYD,Premium,Leaf 50X,2024,77144.36
+BMW,Mid-range,i5,2023,58951.66
+Tesla,Luxury,Cybertruck,2023,113861.27
+GM/Chevrolet,Budget,Blazer EV,2022,24572.41
+Volkswagen,Premium,ID.4,2025,67323.21
+NIO,Luxury,ET6,2025,108463.22
+Tesla,Premium,Model X,2025,71274.6
+BYD,Mid-range,Leaf 50X,2024,55111.29
+Tesla,Luxury,Model 3,2025,132101.43
+Rivian,Luxury,R3,2023,104608.91
+Audi,Luxury,e-tron GT,2026,126813.57
+BYD,Luxury,Atto 3,2026,102365.27
+BMW,Premium,i5,2025,71335.77
+Ford,Mid-range,E-Transit,2026,52666.03
+Kia,Premium,EV9,2024,65472.17
+Hyundai,Mid-range,i30,2022,35583.1
+BYD,Mid-range,Dolphin,2025,62107.84
+Tesla,Luxury,Model S,2024,119857.21
+Audi,Premium,e-tron GT,2025,70111.18
+Audi,Luxury,Q6 e-tron,2025,138510.75
+BMW,Premium,iX,2023,90267.93
+BYD,Premium,Max,2020,67729.77
+BYD,Budget,Yuan Plus,2022,27939.32
+GM/Chevrolet,Premium,Bolt EUV,2026,70455.09
+Audi,Luxury,e-tron GT,2025,104530.78
+Audi,Premium,Q6 e-tron,2025,97248.51
+Ford,Luxury,Explorer EV,2024,105603.42
+BMW,Mid-range,iX,2025,55554.9
+Tesla,Mid-range,Cybertruck,2026,50614.31
+Tesla,Mid-range,Model Y,2025,42292.45
+Audi,Premium,Q4 e-tron,2026,94110.46
+Kia,Premium,EV9,2025,77483.58
+Tesla,Luxury,Model Y,2022,112382.86
+Tesla,Luxury,Model X,2025,112066.22
+BMW,Premium,i7,2024,93724.2
+Tesla,Premium,Cybertruck,2021,98646.08
+Tesla,Mid-range,Cybertruck,2023,46210.19
+Kia,Premium,EV6,2021,66633.95
+GM/Chevrolet,Premium,Silverado EV,2026,65284.93
+BMW,Luxury,i3,2023,137951.81
+BYD,Budget,Seagull,2024,32276.7
+GM/Chevrolet,Mid-range,Bolt EV,2024,61070.92
+BYD,Premium,Seagull,2025,67469.58
+BYD,Mid-range,Seagull,2025,48990.53
+GM/Chevrolet,Mid-range,Bolt EV,2024,56305.37
+BMW,Premium,i5,2021,94181.96
+Mercedes,Luxury,GLE EV,2025,122338.76
+BMW,Premium,i3,2023,67705.12
+Kia,Mid-range,EV6,2024,44920.54
+Tesla,Mid-range,Cybertruck,2024,47891.48
+Volkswagen,Mid-range,ID.5,2022,62108.39
+BYD,Budget,Seagull,2025,24414.35
+BYD,Mid-range,Qin,2023,36044.93
+Fisker,Premium,Ronin,2024,67456.63
+Volkswagen,Mid-range,ID. Buzz,2025,52579.97
+Audi,Premium,Q4 e-tron,2025,81941.39
+BMW,Luxury,i4,2026,133852.24
+Ford,Mid-range,Mustang Mach-E,2025,56042.09
+Hyundai,Premium,Ioniq 5,2024,83570.15
+Kia,Luxury,Picanto EV,2022,111175.38
+Hyundai,Mid-range,Ioniq 5,2025,61128.92
+Tesla,Mid-range,Model Y,2023,44516.36
+GM/Chevrolet,Budget,Equinox EV,2025,32070.17
+BYD,Luxury,Yuan Plus,2024,107358.88
+Tesla,Premium,Model Y,2026,78088.26
+BMW,Luxury,i5,2025,132666.58
+Tesla,Luxury,Model X,2023,100324.34
+NIO,Premium,EL6,2022,69452.42
+Toyota,Mid-range,bZ4X,2023,53579.07
+Rivian,Premium,R3,2023,81874.34
+Volkswagen,Mid-range,ID. Aero,2024,59514.0
+Tesla,Premium,Model 3,2026,80808.44
+Rivian,Premium,R2,2024,84156.92
+Volkswagen,Mid-range,ID.5,2024,39960.53
+Fisker,Luxury,Ronin,2024,115878.52
+Toyota,Mid-range,bZ Compact SUV,2024,64461.76
+Mercedes,Luxury,EQG,2023,181026.58
+BYD,Mid-range,Yuan Plus,2025,48600.01
+Volkswagen,Mid-range,ID.3,2023,40146.71
+Mercedes,Luxury,GLE EV,2023,182443.72
+BYD,Mid-range,Atto 3,2022,38276.48
+Tesla,Luxury,Cybertruck,2025,116077.71
+Kia,Mid-range,EV9,2025,56772.77
+NIO,Premium,EL8,2025,87478.76
+GM/Chevrolet,Premium,Bolt EUV,2025,68470.14
+Kia,Premium,EV9,2025,89987.27
+Tesla,Premium,Model S,2023,76607.64
+Kia,Premium,Picanto EV,2022,76439.21
+Volvo,Luxury,XC90 Recharge,2025,106316.66
+Tesla,Premium,Model Y,2025,83799.48
+Hyundai,Mid-range,Ioniq,2024,50276.57
+Audi,Premium,e-tron GT,2022,98374.44
+GM/Chevrolet,Luxury,Equinox EV,2025,101369.89
+GM/Chevrolet,Mid-range,Blazer EV,2025,61000.06
+GM/Chevrolet,Mid-range,Silverado EV,2025,56307.41
+Volkswagen,Luxury,ID.4,2021,107417.79
+BYD,Luxury,Leaf 50X,2024,118468.84
+Ford,Premium,Explorer EV,2025,92751.53
+Ford,Mid-range,Mustang Mach-E,2024,52120.46
+Mercedes,Luxury,EQC,2024,169395.24
+Audi,Premium,e-tron GT,2021,80311.97
+Hyundai,Premium,Ioniq 5,2022,72159.44
+Hyundai,Mid-range,Ioniq 6,2025,37714.46
+Ford,Mid-range,Mustang Mach-E,2023,63827.68
+BMW,Luxury,i7,2025,150512.16
+GM/Chevrolet,Premium,Bolt EUV,2023,74889.56
+Ford,Premium,F-150 Lightning,2025,66474.9
+Audi,Premium,Q6 e-tron,2020,76665.86
+BYD,Mid-range,Dolphin,2025,42876.18
+Volkswagen,Mid-range,ID. Buzz,2026,43538.73
+Tesla,Luxury,Cybertruck,2023,104581.09
+Kia,Premium,EV6,2022,90771.15
+Tesla,Mid-range,Model S,2022,59089.35
+Hyundai,Mid-range,Ioniq,2024,50087.55
+Kia,Luxury,EV6,2025,117331.76
+BYD,Mid-range,Max,2024,36467.37
+Kia,Premium,EV6,2025,74609.83
+Tesla,Premium,Cybertruck,2025,87113.04
+Tesla,Luxury,Cybertruck,2025,166572.78
+Mercedes,Luxury,GLE EV,2024,116775.93
+Volkswagen,Premium,ID.3,2024,98791.59
+Tesla,Mid-range,Model S,2023,56750.25
+Hyundai,Premium,Kona Electric,2024,75053.58
+Ford,Mid-range,E-Transit,2025,49970.16
+BYD,Mid-range,Max,2024,39727.71
+BMW,Premium,i4,2025,85729.44
+Tesla,Mid-range,Cybertruck,2023,62213.09
+Tesla,Luxury,Cybertruck,2022,170128.32
+Hyundai,Premium,Ioniq 5,2024,80948.92
+Kia,Mid-range,Picanto EV,2022,43745.72
+BMW,Luxury,i3,2023,134039.99
+GM/Chevrolet,Premium,Blazer EV,2025,80896.01
+Lucid,Luxury,Air,2026,199365.9
+Hyundai,Premium,i30,2023,65970.0
+BYD,Premium,Qin,2024,67622.89
+Ford,Mid-range,E-Transit,2023,42208.33
+BYD,Mid-range,Leaf 50X,2024,56388.91
+Volkswagen,Premium,ID. Buzz,2025,66045.15
+Tesla,Mid-range,Cybertruck,2024,37365.06
+Tesla,Mid-range,Cybertruck,2023,38622.29
+Toyota,Premium,bZ4X,2022,69982.49
+Mercedes,Luxury,EQE,2021,165233.4
+GM/Chevrolet,Premium,Blazer EV,2025,70614.1
+Volkswagen,Premium,ID.4,2025,80549.5
+Tesla,Premium,Model Y,2020,96390.76
+Tesla,Budget,Model X,2023,27433.3
+BYD,Premium,Leaf 50X,2024,76472.57
+Kia,Mid-range,Picanto EV,2025,41416.02
+GM/Chevrolet,Mid-range,Silverado EV,2023,64132.24
+BMW,Premium,i3,2025,97630.54
+BYD,Luxury,Seagull,2024,117281.9
+Toyota,Premium,bZ4X,2025,77617.51
+GM/Chevrolet,Mid-range,Bolt EV,2025,53614.17
+Kia,Premium,Niro EV,2026,98299.99
+Kia,Mid-range,EV9,2025,62151.7
+Volkswagen,Mid-range,ID. Buzz,2025,57462.19
+BYD,Premium,Dolphin,2023,65383.31
+Volkswagen,Premium,ID.3,2025,88158.61
+GM/Chevrolet,Mid-range,Bolt EV,2022,49443.87
+Tesla,Budget,Model 3,2023,33304.79
+Tesla,Budget,Cybertruck,2025,29689.54
+Tesla,Luxury,Model S,2025,129183.24
+Tesla,Luxury,Cybertruck,2025,132226.95
+Mercedes,Mid-range,EQE,2026,59152.02
+GM/Chevrolet,Mid-range,Equinox EV,2026,42539.36
+Hyundai,Premium,Ioniq 5,2026,86930.64
+Tesla,Luxury,Model S,2025,162032.44
+Hyundai,Mid-range,Kona Electric,2025,51036.86
+Hyundai,Mid-range,Kona Electric,2024,52223.31
+Tesla,Mid-range,Model S,2025,54018.19
+Volkswagen,Premium,ID.5,2025,78662.15
+Volkswagen,Mid-range,ID. Buzz,2026,39803.56
+Kia,Luxury,EV9,2025,103512.45
+BMW,Premium,i5,2024,76696.39
+Tesla,Premium,Model S,2023,98608.05
+Volkswagen,Premium,ID.4,2026,86543.35
+BMW,Premium,i4,2026,72989.13
+Hyundai,Mid-range,Ioniq 6,2025,39399.56
+Mercedes,Premium,EQS,2024,99625.48
+BMW,Luxury,i7,2025,113646.11
+Tesla,Luxury,Model Y,2024,110939.31
+Tesla,Luxury,Model X,2026,142726.14
+BMW,Premium,i3,2024,69442.01
+Tesla,Mid-range,Model 3,2025,42979.12
+Kia,Mid-range,Picanto EV,2024,56096.47
+NIO,Premium,EL8,2024,82536.87
+Kia,Mid-range,EV9,2026,62907.99
+Volkswagen,Premium,ID.5,2025,97402.81
+BMW,Premium,i7,2025,85706.08
+Hyundai,Mid-range,Ioniq 6,2024,54234.95
+Kia,Premium,Picanto EV,2023,95598.48
+NIO,Premium,EC6,2023,98011.85
+Volkswagen,Mid-range,ID.3,2025,58313.43
+Toyota,Mid-range,bZ Compact SUV,2024,62799.62
+Audi,Premium,e-tron,2025,91038.75
+Tesla,Luxury,Cybertruck,2024,130803.06
+Tesla,Premium,Model 3,2025,69626.26
+Tesla,Premium,Model Y,2024,85409.4
+Tesla,Luxury,Model 3,2026,153057.04
+Tesla,Luxury,Cybertruck,2023,121896.5
+BMW,Premium,i7,2025,66273.55
+Tesla,Mid-range,Model Y,2024,43315.76
+BYD,Mid-range,Atto 3,2022,36072.31
+Mercedes,Luxury,GLE EV,2025,127213.62
+Tesla,Premium,Model X,2024,79315.78
+Ford,Mid-range,Explorer EV,2023,35481.88
+BYD,Premium,Dolphin,2026,82657.26
+Tesla,Luxury,Model S,2025,137829.03
+GM/Chevrolet,Premium,Silverado EV,2025,70239.01
+BMW,Premium,i4,2026,90499.68
+Audi,Luxury,e-tron,2024,130131.59
+GM/Chevrolet,Mid-range,Bolt EV,2024,56344.05
+Ford,Mid-range,F-150 Lightning,2024,59797.58
+BYD,Luxury,Leaf 50X,2023,100157.25
+Tesla,Mid-range,Model Y,2023,55299.28
+GM/Chevrolet,Mid-range,Blazer EV,2025,44798.27
+Ford,Premium,E-Transit,2024,98104.32
+Volvo,Mid-range,XC90 Recharge,2025,55877.09
+Volkswagen,Budget,ID.3,2024,32753.54
+Volkswagen,Premium,ID.3,2022,73902.85
+Ford,Mid-range,Explorer EV,2023,52080.38
+BYD,Budget,Dolphin,2025,22600.22
+Rivian,Premium,R1S,2024,99040.38
+Mercedes,Luxury,EQC,2026,108052.79
+Volkswagen,Mid-range,ID. Buzz,2023,50097.36
+GM/Chevrolet,Mid-range,Blazer EV,2025,35979.3
+GM/Chevrolet,Mid-range,Equinox EV,2025,57051.32
+Tesla,Luxury,Model Y,2025,109970.08
+Audi,Premium,e-tron,2024,92779.16
+Hyundai,Premium,i30,2025,65007.57
+Mercedes,Luxury,EQS,2023,123138.78
+BYD,Luxury,Atto 3,2020,102787.75
+Audi,Premium,e-tron,2025,79195.78
+Volkswagen,Premium,ID.4,2024,93014.64
+Tesla,Luxury,Model S,2023,131294.36
+Audi,Premium,e-tron,2025,84380.71
+Tesla,Premium,Model X,2025,76635.5
+BYD,Mid-range,Leaf 50X,2026,60331.49
+Toyota,Mid-range,bZ Compact SUV,2022,59240.75
+Toyota,Mid-range,bZ Compact SUV,2024,62299.25
+Kia,Mid-range,Picanto EV,2025,41302.85
+BMW,Luxury,iX,2026,111475.63
+Volkswagen,Mid-range,ID.4,2023,44868.54
+BYD,Premium,Atto 3,2026,67426.93
+BYD,Mid-range,Dolphin,2025,53327.95
+BMW,Premium,i7,2022,69932.43
+GM/Chevrolet,Mid-range,Silverado EV,2025,50051.2
+Ford,Mid-range,E-Transit,2026,48841.01
+Ford,Premium,Explorer EV,2021,77562.36
+Tesla,Premium,Cybertruck,2025,69446.79
+Hyundai,Premium,Ioniq 5,2023,68110.08
+Tesla,Premium,Model Y,2023,92950.35
+Kia,Premium,EV9,2022,67330.57
+Volkswagen,Premium,ID. Aero,2025,89383.1
+Audi,Luxury,Q4 e-tron,2024,108294.87
+BYD,Premium,Max,2025,92829.9
+Tesla,Mid-range,Cybertruck,2025,35991.9
+Tesla,Premium,Model 3,2025,88596.07
+Ford,Premium,Explorer EV,2023,73469.82
+Kia,Premium,Niro EV,2026,72349.57
+Tesla,Premium,Model X,2023,93392.21
+Tesla,Luxury,Model S,2023,109016.04
+GM/Chevrolet,Mid-range,Bolt EV,2024,40534.34
+Tesla,Mid-range,Model Y,2024,47765.25
+Ford,Premium,Mustang Mach-E,2024,92734.95
+GM/Chevrolet,Mid-range,Bolt EUV,2024,53007.41
+Tesla,Premium,Model 3,2024,74766.45
+Tesla,Mid-range,Model S,2025,43016.55
+Porsche,Luxury,Taycan,2023,145262.78
+Volkswagen,Luxury,ID.4,2022,102466.68
+Volkswagen,Premium,ID.4,2025,66259.17
+Ford,Premium,Explorer EV,2026,69136.54
+Toyota,Premium,bZ Compact SUV,2024,87515.62
+Porsche,Luxury,Taycan,2026,220736.96
+GM/Chevrolet,Premium,Bolt EV,2025,93152.0
+Volkswagen,Mid-range,ID. Aero,2026,36003.86
+Tesla,Luxury,Model S,2022,119080.01
+Ford,Mid-range,E-Transit,2023,51056.88
+Kia,Mid-range,Niro EV,2020,46532.99
+Volkswagen,Luxury,ID.4,2024,114364.87
+Audi,Luxury,e-tron GT,2025,109816.18
+Tesla,Mid-range,Model Y,2026,40006.71
+Hyundai,Mid-range,Ioniq 6,2025,63640.0
+Tesla,Luxury,Model Y,2025,161112.44
+Hyundai,Mid-range,Ioniq 6,2025,44861.53
+Tesla,Luxury,Model S,2023,137659.6
+Tesla,Budget,Model 3,2024,32105.76
+Tesla,Mid-range,Model 3,2025,42441.37
+BMW,Mid-range,iX,2022,61657.41
+GM/Chevrolet,Mid-range,Equinox EV,2023,37448.46
+Kia,Mid-range,EV9,2023,55591.96
+Toyota,Mid-range,bZ4X,2024,55686.21
+Volkswagen,Mid-range,ID.4,2025,47485.93
+BYD,Mid-range,Dolphin,2025,53346.09
+Mercedes,Luxury,EQC,2025,162751.1
+BYD,Premium,Dolphin,2020,70472.75
+Toyota,Mid-range,bZ4X,2024,36014.2
+Tesla,Mid-range,Model Y,2026,41355.45
+Fisker,Premium,Ronin,2024,65556.39
+Tesla,Premium,Model S,2026,88832.48
+Audi,Premium,Q4 e-tron,2026,71435.35
+Hyundai,Mid-range,i30,2025,41853.99
+Volvo,Premium,XC90 Recharge,2025,96813.71
+Tesla,Luxury,Model Y,2025,129623.74
+Kia,Premium,EV9,2024,70066.61
+Fisker,Luxury,Ocean,2025,141027.0
+Hyundai,Mid-range,Ioniq 5,2020,50630.65
+BMW,Luxury,i4,2025,113836.67
+GM/Chevrolet,Mid-range,Silverado EV,2025,51177.18
+Volkswagen,Premium,ID.3,2026,92636.43
+BMW,Mid-range,i7,2024,64827.83
+Kia,Mid-range,Niro EV,2025,56005.31
+Audi,Luxury,Q6 e-tron,2020,102595.23
+Tesla,Premium,Model Y,2022,74321.01
+BYD,Mid-range,Qin,2023,51321.91
+Toyota,Mid-range,bZ4X,2024,61582.84
+Audi,Premium,Q6 e-tron,2022,87894.85
+Volkswagen,Premium,ID.3,2025,88484.86
+BMW,Luxury,i3,2023,102426.61
+BYD,Luxury,Max,2025,104281.84
+Tesla,Luxury,Model X,2026,167028.1
+Hyundai,Mid-range,Ioniq 6,2024,45546.32
+BYD,Premium,Max,2025,86288.72
+Kia,Mid-range,Picanto EV,2025,58803.16
+Tesla,Mid-range,Model S,2023,44024.89
+Fisker,Luxury,Ocean,2024,113331.61
+Porsche,Luxury,Taycan,2024,111922.96
+GM/Chevrolet,Premium,Silverado EV,2024,74262.98
+Hyundai,Mid-range,Ioniq 5,2024,41621.62
+BYD,Luxury,Qin,2025,122517.87
+Ford,Mid-range,F-150 Lightning,2021,63458.62
+BMW,Luxury,i5,2023,140938.73
+Tesla,Premium,Model 3,2025,90298.51
+Audi,Premium,Q4 e-tron,2025,79689.05
+Mercedes,Luxury,EQC,2026,137679.27
+Toyota,Premium,bZ4X,2025,72608.92
+GM/Chevrolet,Premium,Equinox EV,2025,91034.7
+Kia,Mid-range,Picanto EV,2023,42171.81
+Volkswagen,Mid-range,ID. Aero,2020,40762.98
+Rivian,Premium,R3,2025,70880.73
+Mercedes,Luxury,EQS,2024,114049.24
+Tesla,Mid-range,Model 3,2024,36657.02
+Tesla,Luxury,Cybertruck,2025,124865.93
+Volkswagen,Mid-range,ID. Buzz,2026,46634.88
+Ford,Premium,Explorer EV,2023,68553.62
+Porsche,Luxury,Taycan,2023,254017.08
+Tesla,Budget,Model X,2021,27945.8
+Kia,Mid-range,Niro EV,2024,51697.58
+Volkswagen,Mid-range,ID.4,2024,36019.25
+Fisker,Luxury,Ocean,2024,121374.95
+Mercedes,Luxury,EQG,2026,115211.58
+Mercedes,Luxury,EQG,2025,139106.45
+Hyundai,Mid-range,i30,2025,60050.99
+Volkswagen,Mid-range,ID.4,2026,44501.34
+BYD,Mid-range,Yuan Plus,2024,40390.03
+Tesla,Mid-range,Cybertruck,2024,45682.18
+Mercedes,Luxury,EQE,2025,103044.63
+Ford,Mid-range,Mustang Mach-E,2026,53193.55
+Honda,Mid-range,e:Ny1,2026,51309.25
+Xiaomi,Luxury,SU7,2024,102584.09
+Kia,Premium,Sportage EV,2024,99048.18
+Ford,Premium,Mustang Mach-E,2023,67976.38
+Toyota,Premium,bZ4X,2023,69285.92
+Mercedes,Luxury,EQC,2024,167898.8
+BYD,Mid-range,Qin,2025,36623.25
+Volkswagen,Budget,ID.5,2025,30097.01
+Tesla,Premium,Model S,2023,82511.11
+Toyota,Mid-range,bZ Compact SUV,2022,56751.98
+Kia,Budget,EV6,2024,30277.36
+BYD,Luxury,Qin,2024,103480.37
+BMW,Mid-range,i7,2026,48107.44
+Kia,Luxury,Sportage EV,2023,102070.65
+Volkswagen,Premium,ID.3,2025,94110.75
+Tesla,Luxury,Cybertruck,2025,125305.65
+BMW,Luxury,i7,2026,116974.41
+Hyundai,Premium,Ioniq 6,2024,84751.75
+Ford,Premium,Explorer EV,2025,65329.39
+Hyundai,Premium,Ioniq,2026,78614.71
+Mercedes,Luxury,GLE EV,2026,135101.31
+Kia,Premium,Niro EV,2023,96493.02
+Kia,Mid-range,EV9,2023,52108.05
+Audi,Premium,e-tron,2023,93510.78
+Volkswagen,Premium,ID.4,2024,78233.39
+Tesla,Luxury,Model S,2025,101976.23
+Tesla,Luxury,Model Y,2024,110000.94
+GM/Chevrolet,Premium,Equinox EV,2025,83117.35
+BMW,Luxury,i7,2025,107462.71
+GM/Chevrolet,Mid-range,Blazer EV,2022,55685.25
+BYD,Premium,Max,2026,90766.48
+Tesla,Luxury,Model Y,2026,111102.01
+Tesla,Luxury,Cybertruck,2026,121350.3
+BYD,Mid-range,Qin,2025,43868.55
+Kia,Mid-range,EV9,2026,37918.56
+Volkswagen,Premium,ID.5,2023,87378.56
+Volkswagen,Premium,ID. Aero,2025,98049.57
+Audi,Premium,Q6 e-tron,2025,91070.12
+BYD,Budget,Dolphin,2026,33590.41
+Hyundai,Mid-range,Ioniq 5,2023,51553.1
+Ford,Budget,Mustang Mach-E,2025,31921.1
+Volkswagen,Premium,ID.4,2024,67460.11
+BMW,Mid-range,i7,2025,56108.72
+Mercedes,Luxury,EQS,2024,175695.73
+Toyota,Mid-range,bZ Compact SUV,2020,47569.79
+Tesla,Premium,Cybertruck,2024,68394.93
+Rivian,Premium,R1T,2025,78693.27
+Hyundai,Mid-range,Ioniq 6,2025,46340.48
+BYD,Premium,Seagull,2021,73231.02
+Hyundai,Premium,Ioniq 6,2025,70402.19
+Polestar,Premium,3,2024,98223.61
+Hyundai,Mid-range,Ioniq,2024,39646.49
+BYD,Premium,Yuan Plus,2023,70732.36
+BMW,Luxury,i5,2023,106048.4
+BYD,Premium,Seagull,2026,75687.78
+Tesla,Luxury,Model 3,2024,164903.76
+Tesla,Luxury,Cybertruck,2025,104330.24
+Tesla,Premium,Model 3,2022,74667.63
+Tesla,Luxury,Model S,2024,132957.6
+Tesla,Luxury,Model Y,2025,146521.88
+BMW,Luxury,i7,2024,126323.43
+Tesla,Mid-range,Model X,2025,42945.26
+BYD,Mid-range,Dolphin,2024,38014.51
+Audi,Luxury,e-tron,2025,109441.61
+Hyundai,Premium,Ioniq 6,2026,93179.93
+BMW,Premium,i5,2025,79696.27
+Tesla,Premium,Model Y,2025,85878.17
+Tesla,Mid-range,Model Y,2021,49771.04
+Tesla,Mid-range,Model 3,2025,60544.17
+Tesla,Luxury,Model S,2026,125990.82
+BYD,Mid-range,Seagull,2020,48719.93
+Tesla,Premium,Model X,2022,66277.97
+Tesla,Luxury,Model Y,2025,122990.85
+Tesla,Premium,Model 3,2025,77509.32
+Hyundai,Mid-range,Ioniq 5,2025,42592.08
+BYD,Mid-range,Max,2026,42445.79
+Volkswagen,Mid-range,ID. Aero,2023,44275.35
+Hyundai,Luxury,Ioniq 6,2025,107109.36
+GM/Chevrolet,Mid-range,Bolt EV,2023,38369.91
+Tesla,Premium,Model S,2023,82872.71
+Ford,Premium,Mustang Mach-E,2024,96727.35
+BMW,Premium,i7,2024,84385.88
+Tesla,Budget,Model Y,2025,33796.25
+Audi,Premium,e-tron GT,2025,67634.79
+Rivian,Luxury,R2,2025,105675.37
+Tesla,Mid-range,Model X,2023,43959.45
+BYD,Budget,Dolphin,2025,19398.19
+Ford,Mid-range,Explorer EV,2026,55828.42
+GM/Chevrolet,Mid-range,Blazer EV,2025,55791.9
+Tesla,Luxury,Model 3,2025,151283.19
+BYD,Mid-range,Qin,2024,54577.89
+Volkswagen,Mid-range,ID. Buzz,2025,55247.47
+Hyundai,Mid-range,Ioniq 6,2025,37922.42
+Kia,Premium,EV9,2023,65534.18
+Volkswagen,Mid-range,ID.3,2026,36867.62
+Hyundai,Premium,Ioniq 6,2023,66319.66
+GM/Chevrolet,Mid-range,Blazer EV,2026,47749.35
+Tesla,Premium,Model S,2025,75212.51
+BYD,Premium,Atto 3,2025,87159.36
+GM/Chevrolet,Mid-range,Bolt EUV,2021,44183.28
+Audi,Mid-range,e-tron,2023,63313.85
+Hyundai,Premium,Kona Electric,2024,90974.8
+Hyundai,Premium,Ioniq 5,2022,81725.25
+Tesla,Mid-range,Model Y,2025,64135.13
+Volkswagen,Premium,ID.4,2025,91483.89
+Hyundai,Mid-range,i30,2024,40685.58
+BYD,Mid-range,Dolphin,2025,52144.09
+BYD,Premium,Yuan Plus,2024,73962.43
+Volkswagen,Mid-range,ID.5,2023,62312.34
+Tesla,Premium,Model 3,2024,73678.26
+BYD,Budget,Leaf 50X,2021,32842.63
+BYD,Mid-range,Atto 3,2023,62874.95
+BYD,Luxury,Atto 3,2022,107436.09
+Tesla,Luxury,Model 3,2025,154568.94
+Audi,Mid-range,e-tron,2024,62074.39
+Kia,Premium,EV6,2024,68316.17
+BMW,Premium,iX,2023,98461.71
+Ford,Mid-range,Mustang Mach-E,2023,61500.69
+Hyundai,Mid-range,Ioniq 6,2024,60164.53
+Tesla,Luxury,Model 3,2023,123171.93
+Hyundai,Mid-range,i30,2024,35093.17
+Kia,Luxury,Niro EV,2021,101333.39
+GM/Chevrolet,Mid-range,Blazer EV,2022,54305.64
+Volkswagen,Mid-range,ID. Buzz,2025,58007.82
+Tesla,Luxury,Cybertruck,2024,188964.7
+BYD,Budget,Leaf 50X,2025,33650.32
+Volkswagen,Budget,ID. Buzz,2023,31850.78
+BMW,Luxury,iX,2026,111337.67
+Kia,Mid-range,Sportage EV,2024,56593.19
+Volkswagen,Premium,ID.3,2024,71569.98
+Porsche,Luxury,Macan Electric,2023,139594.69
+Kia,Mid-range,Niro EV,2023,42128.98
+BYD,Mid-range,Seagull,2023,52361.13
+Tesla,Luxury,Cybertruck,2022,161513.5
+Tesla,Premium,Model S,2025,99545.7
+BYD,Premium,Dolphin,2023,78664.3
+Tesla,Premium,Model Y,2022,75540.09
+Tesla,Luxury,Model S,2025,135540.84
+BYD,Budget,Seagull,2024,24520.21
+Tesla,Luxury,Model Y,2026,113350.86
+Audi,Premium,Q6 e-tron,2025,80914.99
+Tesla,Premium,Model X,2023,84447.94
+Hyundai,Budget,Ioniq,2024,31858.49
+Volkswagen,Premium,ID.5,2025,70801.47
+Polestar,Premium,4,2025,80679.27
+Tesla,Budget,Model S,2025,29088.57
+Volkswagen,Mid-range,ID.3,2026,57231.82
+Fisker,Premium,Ronin,2025,67039.1
+Mercedes,Premium,EQG,2024,72880.75
+Ford,Premium,E-Transit,2024,81884.76
+BYD,Budget,Dolphin,2024,27229.19
+Tesla,Mid-range,Cybertruck,2022,39719.77
+BMW,Premium,i4,2024,83737.7
+Rivian,Luxury,R2,2025,104305.19
+Kia,Luxury,EV6,2025,107335.21
+Kia,Mid-range,Picanto EV,2026,38689.25
+BYD,Mid-range,Dolphin,2025,45068.52
+Ford,Mid-range,E-Transit,2023,38404.42
+Tesla,Mid-range,Model S,2025,47711.51
+BYD,Premium,Dolphin,2023,77360.56
+Volkswagen,Premium,ID. Buzz,2024,65767.18
+Hyundai,Premium,Ioniq 6,2025,72308.96
+BYD,Premium,Leaf 50X,2021,86937.42
+Tesla,Luxury,Model 3,2026,127646.69
+Kia,Mid-range,Sportage EV,2025,37973.05
+BYD,Mid-range,Atto 3,2023,48954.46
+Kia,Mid-range,EV9,2021,60641.55
+Tesla,Premium,Model S,2025,89182.57
+Hyundai,Mid-range,Ioniq 5,2024,41142.11
+Hyundai,Mid-range,Ioniq 5,2025,49595.48
+Tesla,Premium,Model S,2025,99045.61
+BYD,Premium,Leaf 50X,2024,68838.03
+Tesla,Mid-range,Model 3,2024,54793.42
+Tesla,Luxury,Cybertruck,2025,160711.64
+Volvo,Premium,C40 Recharge,2026,68234.87
+BYD,Mid-range,Atto 3,2023,53518.98
+Ford,Mid-range,E-Transit,2025,43156.03
+BYD,Mid-range,Leaf 50X,2021,44708.41
+BMW,Luxury,i7,2022,115394.15
+GM/Chevrolet,Mid-range,Bolt EUV,2025,38010.06
+Kia,Premium,EV6,2024,70386.61
+Hyundai,Premium,Ioniq,2022,67747.05
+Volkswagen,Premium,ID.4,2024,78109.65
+BYD,Budget,Max,2025,23230.02
+Rivian,Premium,R1S,2026,87078.44
+Mercedes,Luxury,EQG,2023,133058.62
+Fisker,Premium,Ronin,2026,89077.35
+Tesla,Luxury,Model 3,2025,106221.52
+GM/Chevrolet,Mid-range,Bolt EV,2024,59253.96
+NIO,Premium,ET6,2025,70152.19
+Tesla,Mid-range,Model X,2022,45367.75
+Tesla,Luxury,Cybertruck,2026,101101.42
+GM/Chevrolet,Premium,Silverado EV,2024,71690.64
+Kia,Premium,EV6,2026,65902.95
+Mercedes,Luxury,GLE EV,2024,178911.77
+Tesla,Premium,Model Y,2025,97027.38
+Ford,Mid-range,F-150 Lightning,2025,53281.67
+Tesla,Mid-range,Model Y,2023,53432.36
+Tesla,Premium,Model X,2025,92231.53
+Tesla,Luxury,Model X,2024,125065.93
+Ford,Premium,F-150 Lightning,2020,67768.09
+BMW,Mid-range,i3,2026,62674.5
+Hyundai,Mid-range,Kona Electric,2023,40702.92
+Volkswagen,Mid-range,ID. Buzz,2026,50055.73
+Audi,Premium,e-tron GT,2023,67690.27
+Volkswagen,Mid-range,ID.3,2024,37557.87
+Ford,Mid-range,E-Transit,2024,48328.54
+Volkswagen,Luxury,ID. Aero,2025,102771.71
+Volkswagen,Premium,ID. Aero,2025,97037.17
+Hyundai,Premium,i30,2025,81032.96
+BYD,Mid-range,Atto 3,2024,53347.12
+GM/Chevrolet,Mid-range,Silverado EV,2022,39747.92
+Hyundai,Mid-range,Ioniq,2025,59265.27
+BYD,Budget,Dolphin,2025,24263.38
+Audi,Luxury,Q6 e-tron,2023,103373.32
+Volkswagen,Premium,ID. Buzz,2025,65624.38
+Kia,Budget,EV6,2025,34297.3
+Audi,Premium,Q6 e-tron,2023,94046.97
+BMW,Premium,i5,2024,85524.8
+Tesla,Mid-range,Model 3,2025,37324.82
+NIO,Premium,EL8,2023,65637.97
+BMW,Premium,i3,2023,86679.02
+BYD,Budget,Seagull,2024,18386.22
+Tesla,Mid-range,Model 3,2025,39961.09
+Ford,Premium,F-150 Lightning,2025,71166.51
+BMW,Luxury,iX,2021,122478.25
+Hyundai,Budget,Kona Electric,2025,33895.78
+Audi,Luxury,e-tron GT,2026,101046.9
+Ford,Mid-range,Explorer EV,2023,42429.66
+Tesla,Premium,Model X,2025,81903.39
+BYD,Premium,Max,2026,92693.85
+BYD,Luxury,Atto 3,2026,110109.78
+GM/Chevrolet,Premium,Equinox EV,2026,81491.33
+Tesla,Premium,Cybertruck,2022,83011.59
+Kia,Mid-range,Sportage EV,2023,59926.46
+Ford,Mid-range,F-150 Lightning,2025,44324.9
+Audi,Luxury,e-tron,2025,114471.43
+BYD,Luxury,Atto 3,2026,104593.9
+Ford,Premium,F-150 Lightning,2026,95704.24
+Tesla,Premium,Cybertruck,2024,81331.26
+Mercedes,Premium,GLE EV,2025,83712.42
+Tesla,Luxury,Model 3,2023,106795.24
+Volkswagen,Premium,ID. Aero,2025,92182.9
+Ford,Budget,Explorer EV,2025,31805.75
+Tesla,Mid-range,Model S,2023,64307.39
+BYD,Premium,Max,2023,99850.08
+GM/Chevrolet,Premium,Blazer EV,2024,70082.06
+GM/Chevrolet,Mid-range,Silverado EV,2024,61767.69
+BMW,Premium,i4,2022,87727.18
+GM/Chevrolet,Budget,Bolt EUV,2025,29502.2
+Kia,Premium,EV6,2026,81787.56
+BYD,Premium,Atto 3,2025,94900.11
+BYD,Premium,Max,2026,76922.71
+Tesla,Luxury,Model 3,2024,173467.44
+Audi,Luxury,Q6 e-tron,2024,105361.9
+Kia,Mid-range,Picanto EV,2022,39229.86
+Volkswagen,Premium,ID.5,2022,90567.3
+Hyundai,Premium,Ioniq,2025,95402.2
+Toyota,Premium,bZ Compact SUV,2025,84185.72
+Tesla,Luxury,Model Y,2026,131838.33
+Kia,Mid-range,EV9,2024,36206.52
+Hyundai,Mid-range,Ioniq 5,2026,60217.03
+Kia,Premium,Sportage EV,2025,76146.1
+Tesla,Premium,Model 3,2024,92300.78
+Mercedes,Luxury,GLE EV,2025,158316.83
+Rivian,Luxury,R3,2025,109164.41
+Kia,Luxury,Niro EV,2025,108567.95
+GM/Chevrolet,Budget,Silverado EV,2024,33469.38
+Rivian,Premium,R3,2025,79068.68
+GM/Chevrolet,Mid-range,Bolt EV,2023,59074.75
+Tesla,Mid-range,Model 3,2025,38136.97
+Kia,Premium,Sportage EV,2024,72898.84
+Kia,Premium,Sportage EV,2026,72429.61
+Volkswagen,Premium,ID. Aero,2024,90339.09
+GM/Chevrolet,Mid-range,Bolt EUV,2024,57794.12
+NIO,Premium,EL6,2024,99775.41
+Rivian,Premium,R2,2026,98562.96
+Volkswagen,Mid-range,ID. Buzz,2025,45327.13
+Tesla,Luxury,Model Y,2023,100758.31
+Porsche,Luxury,Macan Electric,2025,185796.61
+Mercedes,Premium,EQG,2025,94596.53
+Tesla,Luxury,Model S,2021,108109.05
+Rivian,Premium,R2,2025,79447.62
+Mercedes,Luxury,EQC,2026,151394.73
+Hyundai,Budget,i30,2025,30172.57
+Kia,Premium,Niro EV,2024,81763.2
+Volkswagen,Mid-range,ID. Buzz,2026,42399.68
+Tesla,Premium,Model X,2022,98265.87
+BYD,Premium,Max,2024,70846.85
+Ford,Premium,Explorer EV,2023,78508.55
+Tesla,Luxury,Cybertruck,2022,154962.64
+BYD,Mid-range,Yuan Plus,2023,44084.51
+Volkswagen,Mid-range,ID.3,2024,47038.76
+Hyundai,Mid-range,Ioniq 5,2025,50915.71
+Rivian,Mid-range,R1S,2022,64347.55
+BYD,Budget,Atto 3,2022,21384.75
+BYD,Premium,Atto 3,2025,99107.52
+GM/Chevrolet,Mid-range,Bolt EV,2025,60512.96
+Volkswagen,Mid-range,ID.5,2023,64071.2
+BYD,Budget,Atto 3,2026,31933.47
+Volkswagen,Budget,ID.3,2026,33483.92
+Tesla,Premium,Model S,2025,68593.72
+Tesla,Mid-range,Cybertruck,2025,61013.48
+Hyundai,Premium,Ioniq 5,2025,68602.24
+Volkswagen,Premium,ID. Aero,2021,76214.9
+Rivian,Luxury,R1S,2026,110739.07
+Volkswagen,Luxury,ID.4,2024,111511.26
+Kia,Mid-range,Niro EV,2025,64726.92
+BMW,Premium,i7,2023,89651.14
+Tesla,Luxury,Model 3,2023,125634.38
+BMW,Premium,i3,2025,93156.19
+Tesla,Premium,Cybertruck,2022,93999.45
+Toyota,Mid-range,bZ Compact SUV,2023,52160.99
+Tesla,Premium,Model S,2024,77897.86
+Volkswagen,Premium,ID.4,2025,78698.7
+Tesla,Luxury,Model S,2021,109935.85
+Xiaomi,Luxury,SU7,2024,115672.77
+Hyundai,Mid-range,Kona Electric,2024,43667.25
+Kia,Mid-range,EV6,2025,60524.16
+Tesla,Budget,Model 3,2021,24979.98
+GM/Chevrolet,Mid-range,Blazer EV,2024,58716.57
+BYD,Budget,Qin,2024,17777.32
+Audi,Luxury,Q4 e-tron,2026,163470.92
+BYD,Mid-range,Seagull,2021,53782.86
+Tesla,Mid-range,Model Y,2022,38805.29
+Tesla,Premium,Model X,2024,90519.74
+Hyundai,Mid-range,Ioniq 5,2025,46385.14
+Kia,Luxury,Niro EV,2026,110515.91
+Tesla,Mid-range,Cybertruck,2023,35071.56
+Ford,Luxury,Explorer EV,2025,106247.4
+Volkswagen,Mid-range,ID.3,2026,56734.76
+Hyundai,Premium,Ioniq,2025,74693.36
+Volkswagen,Premium,ID.5,2022,70140.57
+Volkswagen,Mid-range,ID.5,2025,60218.55
+Kia,Mid-range,Picanto EV,2020,44609.33
+Tesla,Mid-range,Model 3,2025,58452.94
+Tesla,Luxury,Cybertruck,2023,118800.8
+Mercedes,Premium,EQC,2024,87690.32
+Toyota,Mid-range,bZ4X,2022,55775.75
+Volkswagen,Mid-range,ID. Aero,2023,51298.81
+BYD,Premium,Dolphin,2025,82759.69
+BMW,Luxury,i4,2023,130983.67
+Volkswagen,Premium,ID.4,2025,65061.9
+Tesla,Luxury,Model S,2022,163492.8
+Tesla,Mid-range,Model X,2023,53973.57
+GM/Chevrolet,Mid-range,Bolt EV,2025,60210.65
+BMW,Premium,i3,2023,81481.72
+Tesla,Luxury,Model S,2025,140244.92
+BYD,Luxury,Dolphin,2024,108909.03
+BYD,Budget,Seagull,2025,31665.46
+BMW,Luxury,i7,2026,125746.52
+Tesla,Premium,Model S,2024,75201.32
+Tesla,Premium,Model 3,2025,91388.05
+Ford,Mid-range,F-150 Lightning,2024,60849.51
+Tesla,Luxury,Cybertruck,2024,131729.26
+BMW,Premium,iX,2021,82329.27
+BYD,Premium,Atto 3,2021,91712.12
+Tesla,Luxury,Model 3,2024,106609.89
+BYD,Mid-range,Qin,2020,36752.05
+GM/Chevrolet,Mid-range,Equinox EV,2024,55502.07
+Mercedes,Luxury,EQS,2025,136918.85
+Mercedes,Luxury,EQE,2023,142535.28
+Volkswagen,Premium,ID. Aero,2025,68256.27
+BMW,Luxury,i3,2025,127970.02
+BYD,Premium,Yuan Plus,2026,71806.41
+BYD,Mid-range,Qin,2023,54457.48
+Audi,Luxury,Q4 e-tron,2026,145965.36
+Tesla,Mid-range,Model X,2025,40997.3
+Tesla,Luxury,Model 3,2026,147080.28
+BYD,Mid-range,Max,2023,35900.23
+Tesla,Premium,Model X,2025,76806.22
+Tesla,Premium,Cybertruck,2025,96810.26
+Kia,Premium,EV9,2026,78041.17
+Volkswagen,Mid-range,ID.3,2025,47861.91
+Audi,Premium,Q4 e-tron,2025,84123.81
+Ford,Mid-range,Mustang Mach-E,2024,62057.63
+BYD,Premium,Seagull,2026,95761.12
+BYD,Premium,Qin,2024,75732.88
+Volkswagen,Premium,ID. Buzz,2024,74047.12
+Kia,Premium,Niro EV,2026,91033.29
+BYD,Budget,Atto 3,2024,30843.09
+BMW,Luxury,i5,2021,139020.51
+Volkswagen,Mid-range,ID. Aero,2021,60392.45
+Kia,Budget,Sportage EV,2020,26731.95
+Volkswagen,Premium,ID. Buzz,2024,70634.98
+BYD,Budget,Dolphin,2023,25794.27
+Toyota,Premium,bZ4X,2024,94209.78
+Ford,Mid-range,Mustang Mach-E,2025,60546.72
+Tesla,Luxury,Cybertruck,2025,170547.81
+Mercedes,Premium,EQG,2023,82191.2
+Hyundai,Luxury,Ioniq 6,2025,100947.83
+Audi,Luxury,e-tron GT,2024,106732.12
+Ford,Premium,Explorer EV,2026,97985.03
+Volkswagen,Mid-range,ID.3,2024,38794.79
+Tesla,Luxury,Model Y,2024,111996.5
+BYD,Mid-range,Dolphin,2026,49411.4
+Kia,Mid-range,EV6,2023,37474.58
+BMW,Luxury,i3,2026,148406.75
+BYD,Mid-range,Qin,2024,46656.51
+Tesla,Premium,Model X,2021,97027.76
+Mercedes,Luxury,EQG,2026,129546.31
+Polestar,Premium,2,2025,93833.94
+Hyundai,Mid-range,i30,2023,37474.79
+Tesla,Luxury,Cybertruck,2025,127335.12
+BYD,Mid-range,Atto 3,2024,50360.89
+Tesla,Luxury,Model 3,2024,152844.99
+Rivian,Luxury,R2,2025,117871.06
+Tesla,Luxury,Model X,2025,126875.08
+Kia,Mid-range,Picanto EV,2024,57850.5
+BYD,Premium,Max,2024,70890.54
+Kia,Luxury,Picanto EV,2024,105759.07
+BMW,Premium,i5,2025,83830.66
+Mercedes,Luxury,EQE,2026,148924.89
+BYD,Mid-range,Atto 3,2022,49226.29
+Tesla,Budget,Model S,2025,29411.54
+Tesla,Luxury,Cybertruck,2024,107897.62
+Audi,Luxury,e-tron GT,2022,137631.97
+Audi,Premium,e-tron GT,2024,65798.71
+Kia,Premium,Niro EV,2022,93773.43
+Kia,Mid-range,Picanto EV,2024,57643.94
+BMW,Luxury,i5,2022,102440.51
+Tesla,Mid-range,Cybertruck,2024,49296.66
+Rivian,Luxury,R1S,2024,118076.47
+Volkswagen,Premium,ID.4,2023,69215.27
+Volkswagen,Premium,ID. Aero,2026,86339.6
+Hyundai,Mid-range,Ioniq 6,2023,41678.26
+Tesla,Luxury,Cybertruck,2025,131326.82
+Tesla,Luxury,Model X,2025,106034.49
+GM/Chevrolet,Mid-range,Blazer EV,2023,60380.4
+Tesla,Luxury,Model Y,2024,141348.91
+Kia,Budget,Picanto EV,2025,33502.19
+BYD,Premium,Seagull,2025,98579.06
+Volkswagen,Budget,ID. Aero,2024,29413.61
+BYD,Budget,Atto 3,2025,32535.18
+Volkswagen,Luxury,ID.5,2024,106703.67
+GM/Chevrolet,Mid-range,Bolt EUV,2025,61871.83
+BYD,Budget,Yuan Plus,2024,31743.27
+Kia,Premium,Sportage EV,2025,72347.59
+Hyundai,Mid-range,Ioniq 6,2025,47415.02
+BMW,Luxury,i4,2023,101992.19
+NIO,Premium,EC6,2025,83405.89
+GM/Chevrolet,Premium,Blazer EV,2023,77802.21
+BYD,Mid-range,Atto 3,2024,53801.14
+Tesla,Premium,Model 3,2025,84190.57
+BYD,Mid-range,Qin,2023,40160.18
+Kia,Mid-range,EV6,2022,48028.48
+Tesla,Luxury,Model S,2026,120990.97
+Hyundai,Mid-range,i30,2022,52457.02
+Kia,Premium,Picanto EV,2023,66396.28
+BYD,Mid-range,Dolphin,2025,53719.72
+Ford,Mid-range,Mustang Mach-E,2026,56792.12
+Tesla,Luxury,Model S,2024,122807.61
+Tesla,Luxury,Model X,2025,153915.44
+GM/Chevrolet,Budget,Equinox EV,2025,28857.9
+Hyundai,Mid-range,Kona Electric,2024,53616.49
+BMW,Premium,i5,2020,93337.36
+Volkswagen,Premium,ID. Aero,2026,69769.06
+BYD,Mid-range,Yuan Plus,2026,35604.12
+Ford,Premium,F-150 Lightning,2025,91074.2
+Ford,Premium,E-Transit,2022,72686.4
+GM/Chevrolet,Mid-range,Bolt EV,2024,43772.41
+BYD,Luxury,Max,2025,100296.35
+Kia,Premium,Picanto EV,2026,70115.71
+Volkswagen,Premium,ID. Buzz,2026,70180.35
+Tesla,Mid-range,Model 3,2023,50661.72
+Rivian,Premium,R1S,2023,71764.23
+Tesla,Luxury,Model Y,2024,118291.58
+Toyota,Premium,bZ Compact SUV,2025,65608.6
+Volkswagen,Premium,ID. Buzz,2023,99863.63
+Tesla,Premium,Model 3,2022,84609.91
+Kia,Premium,Sportage EV,2025,81244.23
+Mercedes,Luxury,EQC,2024,167460.91
+GM/Chevrolet,Budget,Equinox EV,2023,33127.16
+Ford,Premium,Explorer EV,2023,66131.67
+BMW,Mid-range,i7,2024,58695.0
+GM/Chevrolet,Mid-range,Silverado EV,2025,46867.37
+Mercedes,Luxury,EQS,2024,183949.91
+BYD,Budget,Max,2025,26705.48
+Hyundai,Mid-range,Ioniq 5,2024,37623.67
+BYD,Premium,Dolphin,2025,98821.6
+Porsche,Luxury,Macan Electric,2025,186969.89
+NIO,Premium,EL8,2024,68322.21
+Tesla,Premium,Model Y,2024,91805.32
+GM/Chevrolet,Budget,Bolt EV,2024,34244.16
+Rivian,Luxury,R3,2026,113739.43
+Tesla,Premium,Cybertruck,2025,98006.33
+Kia,Premium,EV9,2024,67166.43
+Rivian,Premium,R1S,2024,73774.27
+Tesla,Premium,Model Y,2024,98420.53
+GM/Chevrolet,Mid-range,Silverado EV,2024,42545.39
+BYD,Budget,Leaf 50X,2023,25921.47
+Rivian,Premium,R1S,2024,86119.94
+Fisker,Premium,Ronin,2024,77587.25
+Toyota,Premium,bZ4X,2026,89238.61
+Hyundai,Mid-range,Ioniq 6,2023,53342.39
+Mercedes,Luxury,EQS,2026,108752.82
+Mercedes,Premium,GLE EV,2022,94570.88
+BYD,Mid-range,Dolphin,2025,52113.75
+Mercedes,Premium,EQC,2025,91108.2
+Tesla,Mid-range,Cybertruck,2024,49738.35
+Kia,Budget,EV9,2023,33510.99
+BYD,Premium,Seagull,2023,84139.98
+Tesla,Luxury,Model 3,2025,137916.62
+Tesla,Luxury,Model 3,2024,148635.93
+GM/Chevrolet,Mid-range,Bolt EUV,2025,62330.93
+BYD,Budget,Qin,2025,29108.23
+GM/Chevrolet,Premium,Bolt EUV,2025,81159.74
+Tesla,Premium,Model 3,2025,80586.23
+BYD,Premium,Qin,2025,79451.82
+Kia,Mid-range,Niro EV,2021,51783.96
+Ford,Mid-range,E-Transit,2025,47442.7
+BYD,Luxury,Max,2024,113232.12
+BMW,Luxury,i3,2021,102095.14
+Audi,Luxury,e-tron,2026,104966.05
+Kia,Mid-range,Niro EV,2024,40789.37
+BYD,Budget,Leaf 50X,2025,32451.41
+Tesla,Luxury,Model 3,2022,112086.56
+Mercedes,Mid-range,EQG,2022,64416.89
+Tesla,Luxury,Model 3,2025,108727.13
+Audi,Luxury,e-tron,2021,119078.45
+Hyundai,Budget,Ioniq 5,2025,34994.42
+NIO,Luxury,ET5,2023,114240.51
+Ford,Premium,Mustang Mach-E,2025,70076.78
+Xiaomi,Premium,SU7,2024,95394.53
+BYD,Budget,Seagull,2024,16613.01
+Ford,Mid-range,F-150 Lightning,2022,39147.79
+Volkswagen,Mid-range,ID.3,2025,52326.27
+Hyundai,Mid-range,Ioniq 6,2026,43930.22
+BMW,Premium,i5,2025,68260.21
+Audi,Premium,e-tron GT,2024,86243.23
+Polestar,Premium,2,2025,91715.74
+Ford,Mid-range,Explorer EV,2025,55304.32
+Volkswagen,Premium,ID.4,2024,67671.59
+Volkswagen,Mid-range,ID.5,2022,46348.56
+GM/Chevrolet,Mid-range,Silverado EV,2023,41711.2
+BYD,Premium,Atto 3,2024,71451.87
+Tesla,Luxury,Cybertruck,2022,109130.05
+BYD,Budget,Dolphin,2025,30282.11
+BYD,Premium,Dolphin,2025,83813.38
+BYD,Mid-range,Atto 3,2022,59084.31
+BYD,Mid-range,Dolphin,2021,43985.87
+Tesla,Luxury,Model Y,2024,114549.61
+Tesla,Mid-range,Model Y,2025,63323.17
+Porsche,Luxury,Taycan,2024,143428.05
+Volkswagen,Mid-range,ID. Aero,2023,60337.62
+Volkswagen,Mid-range,ID.3,2023,53064.54
+BMW,Premium,i5,2022,74178.54
+BYD,Mid-range,Atto 3,2025,51946.07
+Toyota,Premium,bZ Compact SUV,2024,85221.63
+Ford,Mid-range,E-Transit,2025,44718.1
+Tesla,Mid-range,Model X,2024,57311.05
+Volkswagen,Luxury,ID. Aero,2025,112803.13
+Audi,Luxury,e-tron GT,2025,126392.96
+Toyota,Premium,bZ Compact SUV,2025,79560.18
+Hyundai,Mid-range,Ioniq,2025,56648.45
+Kia,Premium,EV9,2026,68589.74
+Tesla,Luxury,Model Y,2025,126346.84
+Volvo,Premium,XC40 Recharge,2025,79465.0
+BYD,Mid-range,Qin,2022,51140.49
+NIO,Mid-range,EL8,2021,55221.99
+BMW,Premium,i3,2024,79371.52
+Kia,Mid-range,Picanto EV,2024,42779.06
+Hyundai,Mid-range,Ioniq 6,2026,56433.0
+BYD,Budget,Atto 3,2026,27583.09
+Tesla,Mid-range,Model S,2026,58826.88
+BYD,Premium,Atto 3,2024,65610.45
+Tesla,Premium,Cybertruck,2024,71380.4
+Ford,Premium,F-150 Lightning,2024,79235.67
+BYD,Premium,Max,2024,88218.65
+Tesla,Luxury,Model S,2020,164703.81
+Fisker,Premium,Ronin,2026,93652.94
+Audi,Luxury,e-tron GT,2024,121871.7
+Rivian,Luxury,R1S,2022,102878.64
+Volvo,Premium,XC90 Recharge,2022,74428.14
+Tesla,Luxury,Model 3,2026,112274.6
+Volkswagen,Premium,ID. Buzz,2025,97039.06
+GM/Chevrolet,Mid-range,Silverado EV,2021,53395.89
+GM/Chevrolet,Premium,Blazer EV,2025,80502.6
+Tesla,Budget,Model 3,2025,31639.64
+Ford,Premium,F-150 Lightning,2023,69526.3
+BYD,Premium,Atto 3,2025,81358.02
+BYD,Mid-range,Qin,2026,45158.26
+Hyundai,Premium,Ioniq,2023,73470.2
+Kia,Budget,Sportage EV,2024,31797.34
+Kia,Premium,EV9,2022,73675.86
+Tesla,Luxury,Model S,2023,105706.18
+Audi,Luxury,e-tron,2024,123736.19
+BYD,Premium,Dolphin,2025,73207.32
+Tesla,Premium,Model S,2023,95125.11
+Audi,Mid-range,e-tron GT,2023,64643.29
+Toyota,Mid-range,bZ4X,2022,35115.72
+Mercedes,Luxury,EQE,2025,112650.99
+Ford,Premium,Explorer EV,2024,80541.59
+BMW,Premium,i4,2022,99869.64
+Kia,Luxury,Picanto EV,2021,106510.25
+Tesla,Mid-range,Model S,2025,58831.27
+Volkswagen,Premium,ID.3,2025,70858.1
+Volkswagen,Mid-range,ID. Buzz,2024,46173.34
+BYD,Premium,Yuan Plus,2025,73712.39
+GM/Chevrolet,Premium,Silverado EV,2023,73891.2
+Hyundai,Premium,Ioniq,2025,65291.37
+Tesla,Luxury,Model Y,2024,137035.03
+BYD,Mid-range,Yuan Plus,2023,36015.66
+BMW,Premium,i4,2024,96459.23
+Tesla,Mid-range,Cybertruck,2025,64862.04
+Mercedes,Luxury,EQS,2025,131964.76
+Hyundai,Premium,Kona Electric,2024,97251.62
+Hyundai,Mid-range,i30,2024,63320.42
+Kia,Mid-range,EV9,2023,63386.57
+Mercedes,Luxury,EQE,2021,115665.62
+BYD,Budget,Dolphin,2022,30805.35
+BMW,Luxury,i4,2026,103491.15
+Kia,Premium,Niro EV,2026,67363.85
+BYD,Mid-range,Seagull,2025,37099.25
+Audi,Mid-range,Q4 e-tron,2025,55204.45
+Ford,Mid-range,E-Transit,2025,63604.01
+BMW,Luxury,iX,2023,101590.86
+Mercedes,Mid-range,GLE EV,2024,62600.82
+Mercedes,Premium,EQS,2025,99348.31
+GM/Chevrolet,Mid-range,Bolt EUV,2021,40119.64
+Mercedes,Luxury,EQC,2025,124226.17
+GM/Chevrolet,Budget,Blazer EV,2025,34616.61
+BMW,Premium,i7,2021,75380.59
+Kia,Budget,EV9,2021,32210.63
+GM/Chevrolet,Premium,Silverado EV,2026,68395.01
+Tesla,Luxury,Model S,2024,156702.49
+Audi,Premium,e-tron,2026,97863.03
+Mercedes,Luxury,EQS,2025,183986.43
+Tesla,Mid-range,Cybertruck,2025,56352.74
+Mercedes,Luxury,EQG,2022,126403.53
+Tesla,Premium,Model 3,2023,67810.93
+BYD,Mid-range,Seagull,2022,53237.26
+GM/Chevrolet,Mid-range,Blazer EV,2025,63436.73
+Tesla,Luxury,Cybertruck,2024,101208.82
+Ford,Mid-range,Explorer EV,2023,37298.34
+Mercedes,Luxury,EQC,2022,155446.31
+Hyundai,Mid-range,Ioniq 5,2022,55487.47
+Tesla,Premium,Model 3,2020,65735.1
+BYD,Mid-range,Seagull,2023,62912.21
+Kia,Premium,Picanto EV,2026,97174.66
+Polestar,Premium,2,2020,82455.28
+BMW,Premium,i5,2025,84667.26
+BYD,Mid-range,Dolphin,2024,57387.97
+BMW,Premium,iX,2025,92031.99
+Kia,Premium,EV6,2024,72870.48
+Ford,Premium,Explorer EV,2025,66422.79
+Tesla,Mid-range,Cybertruck,2025,52220.2
+GM/Chevrolet,Premium,Equinox EV,2025,84366.72
+Kia,Premium,EV9,2025,93514.06
+Toyota,Budget,bZ Compact SUV,2020,30416.52
+BYD,Luxury,Seagull,2021,106411.54
+BMW,Premium,iX,2026,81773.51
+Rivian,Premium,R1T,2021,75009.92
+Tesla,Premium,Model S,2025,67256.69
+NIO,Premium,EL6,2025,65308.05
+BMW,Mid-range,i4,2023,63735.58
+Tesla,Luxury,Model Y,2025,154034.2
+BYD,Budget,Seagull,2025,26964.92
+GM/Chevrolet,Mid-range,Bolt EUV,2024,61730.85
+Tesla,Premium,Model 3,2024,88042.89
+Kia,Premium,EV9,2025,74000.57
+BYD,Premium,Atto 3,2025,81058.7
+BMW,Mid-range,iX,2022,51043.69
+Tesla,Luxury,Model Y,2023,144885.91
+Mercedes,Luxury,EQG,2026,124673.1
+Fisker,Luxury,Ronin,2024,159067.16
+Fisker,Premium,Ocean,2024,93018.72
+GM/Chevrolet,Premium,Bolt EV,2026,67711.2
+Tesla,Luxury,Model 3,2025,112635.62
+GM/Chevrolet,Mid-range,Blazer EV,2023,62461.41
+Tesla,Premium,Model Y,2026,83728.44
+Tesla,Premium,Model X,2025,92160.09
+BYD,Budget,Dolphin,2023,23505.59
+Hyundai,Premium,Kona Electric,2026,77799.73
+Ford,Mid-range,Mustang Mach-E,2022,56513.76
+BMW,Premium,i3,2025,69070.75
+Volkswagen,Luxury,ID.4,2024,112817.29
+BYD,Budget,Yuan Plus,2025,28078.09
+Xiaomi,Premium,SU7,2024,67624.72
+Volkswagen,Mid-range,ID.4,2024,45198.24
+Volkswagen,Budget,ID. Buzz,2025,34913.45
+Tesla,Mid-range,Model X,2022,53235.86
+Ford,Premium,E-Transit,2023,78714.85
+GM/Chevrolet,Mid-range,Bolt EUV,2024,57065.27
+BYD,Luxury,Yuan Plus,2025,113906.34
+Tesla,Luxury,Model 3,2024,171221.67
+BMW,Luxury,i5,2024,143876.35
+BMW,Mid-range,iX,2024,62907.37
+BYD,Luxury,Atto 3,2022,101092.71
+Toyota,Mid-range,bZ Compact SUV,2024,53125.0
+Tesla,Premium,Model S,2025,67690.46
+Volkswagen,Premium,ID. Buzz,2025,71667.28
+NIO,Luxury,EC6,2025,103197.25
+Volkswagen,Premium,ID. Aero,2022,94244.35
+BMW,Luxury,i7,2025,150935.25
+Volkswagen,Mid-range,ID. Buzz,2022,46160.26
+BYD,Budget,Seagull,2025,32710.87
+Polestar,Premium,3,2024,76930.78
+Volkswagen,Luxury,ID. Aero,2021,102347.9
+Audi,Premium,Q4 e-tron,2022,84689.7
+BYD,Luxury,Max,2025,118077.25
+BYD,Premium,Atto 3,2026,87619.97
+Tesla,Premium,Model Y,2025,92379.52
+BMW,Premium,i7,2020,84308.51
+Volkswagen,Luxury,ID. Aero,2024,115397.77
+Mercedes,Luxury,EQE,2023,142019.75
+Hyundai,Mid-range,Ioniq,2023,48459.84
+Fisker,Luxury,Ronin,2025,106306.01
+Tesla,Mid-range,Model Y,2026,55363.64
+Mercedes,Luxury,GLE EV,2025,111590.33
+Ford,Premium,F-150 Lightning,2025,79279.61
+Ford,Mid-range,E-Transit,2022,44715.21
+Mercedes,Luxury,EQC,2026,122737.35
+GM/Chevrolet,Premium,Silverado EV,2026,75057.34
+BMW,Luxury,i7,2023,121734.94
+Tesla,Mid-range,Model S,2025,41533.41
+Tesla,Budget,Cybertruck,2022,33281.6
+Rivian,Premium,R2,2024,78385.68
+Kia,Mid-range,Picanto EV,2026,54591.6
+Ford,Premium,E-Transit,2024,84501.24
+Hyundai,Mid-range,Kona Electric,2026,45692.14
+Tesla,Luxury,Model S,2025,131664.51
+Tesla,Luxury,Model 3,2026,146733.12
+BMW,Luxury,i3,2024,108424.86
+Volkswagen,Mid-range,ID.5,2024,43023.64
+Tesla,Luxury,Model X,2024,157561.98
+Hyundai,Mid-range,Ioniq 5,2024,61789.95
+Tesla,Luxury,Model 3,2024,109834.54
+Kia,Budget,EV9,2025,31082.43
+BYD,Luxury,Seagull,2025,111062.23
+Ford,Mid-range,Explorer EV,2025,56654.61
+BYD,Premium,Qin,2023,82830.36
+Volkswagen,Premium,ID. Buzz,2025,85586.86
+Tesla,Luxury,Model S,2023,170972.65
+Tesla,Luxury,Model Y,2024,158710.22
+Volkswagen,Luxury,ID. Aero,2026,102827.77
+Hyundai,Mid-range,Ioniq 6,2024,58686.32
+Kia,Mid-range,EV9,2024,50056.29
+BYD,Budget,Yuan Plus,2021,24412.01
+GM/Chevrolet,Mid-range,Equinox EV,2024,58896.05
+Mercedes,Luxury,EQG,2024,113572.04
+Ford,Budget,E-Transit,2025,32151.97
+Tesla,Luxury,Model Y,2024,168092.71
+Hyundai,Premium,Ioniq,2020,74306.48
+Tesla,Premium,Model X,2025,99111.24
+BYD,Budget,Yuan Plus,2026,32377.24
+Porsche,Luxury,Macan Electric,2021,163150.52
+Tesla,Luxury,Cybertruck,2023,172193.15
+Hyundai,Mid-range,Kona Electric,2025,46056.18
+Kia,Premium,Picanto EV,2025,88002.42
+GM/Chevrolet,Mid-range,Equinox EV,2025,57562.96
+Kia,Premium,EV6,2021,91322.04
+Tesla,Mid-range,Model 3,2025,39764.73
+BYD,Budget,Dolphin,2025,23723.54
+Hyundai,Mid-range,Ioniq 5,2023,42532.36
+Tesla,Budget,Model S,2023,29555.66
+BYD,Mid-range,Yuan Plus,2023,62695.67
+Tesla,Premium,Model Y,2025,71009.25
+Tesla,Mid-range,Model S,2023,41849.58
+Volkswagen,Mid-range,ID.5,2025,36800.16
+Tesla,Luxury,Model Y,2024,166324.36
+Kia,Premium,Picanto EV,2024,71842.96
+BMW,Luxury,i5,2024,117382.51
+Ford,Mid-range,Mustang Mach-E,2024,46219.97
+Tesla,Budget,Model S,2024,29639.14
+Tesla,Premium,Cybertruck,2025,81977.77
+Tesla,Premium,Model S,2025,94641.12
+BMW,Luxury,i3,2023,113237.82
+GM/Chevrolet,Mid-range,Bolt EV,2024,41353.28
+Tesla,Luxury,Model Y,2021,116565.3
+NIO,Premium,EC6,2025,73079.97
+Tesla,Luxury,Model S,2025,106992.78
+Kia,Mid-range,Niro EV,2024,42318.56
+GM/Chevrolet,Mid-range,Bolt EUV,2025,51965.01
+Mercedes,Luxury,EQC,2025,136371.95
+GM/Chevrolet,Mid-range,Equinox EV,2023,53068.74
+Ford,Mid-range,Explorer EV,2025,45556.75
+BYD,Budget,Qin,2022,24219.14
+Ford,Mid-range,E-Transit,2020,62155.3
+Tesla,Luxury,Model Y,2024,162214.08
+Audi,Premium,Q4 e-tron,2023,76292.22
+Kia,Premium,EV9,2020,70023.96
+Ford,Mid-range,Explorer EV,2026,61243.81
+Volkswagen,Mid-range,ID. Buzz,2024,60928.37
+BMW,Luxury,i3,2021,119496.22
+Hyundai,Premium,i30,2025,66375.02
+GM/Chevrolet,Premium,Bolt EUV,2025,68553.58
+Tesla,Premium,Cybertruck,2026,80796.91
+Tesla,Mid-range,Model Y,2021,59816.02
+BYD,Mid-range,Seagull,2020,61584.07
+Tesla,Premium,Model X,2024,99143.24
+Mercedes,Luxury,EQS,2023,129584.74
+BYD,Premium,Seagull,2021,99786.36
+Lucid,Luxury,Air,2026,137880.08
+BYD,Mid-range,Seagull,2025,57737.75
+Tesla,Luxury,Model Y,2023,112472.41
+Ford,Mid-range,E-Transit,2025,54602.2
+BMW,Premium,iX,2021,86702.14
+Hyundai,Luxury,Ioniq 5,2023,107017.27
+Kia,Premium,Sportage EV,2025,76787.3
+GM/Chevrolet,Mid-range,Bolt EUV,2024,54182.3
+BYD,Mid-range,Dolphin,2022,43671.62
+Xiaomi,Mid-range,SU7,2025,55513.6
+Lucid,Luxury,Air,2024,269775.2
+BMW,Luxury,i7,2026,125637.29
+Tesla,Luxury,Model 3,2024,111275.22
+BMW,Premium,i4,2025,84529.75
+Tesla,Premium,Model S,2025,97308.1
+Tesla,Mid-range,Model X,2025,35653.98
+BYD,Luxury,Leaf 50X,2026,101979.86
+Hyundai,Premium,Ioniq 6,2025,80040.4
+Mercedes,Luxury,GLE EV,2026,104553.67
+GM/Chevrolet,Premium,Equinox EV,2023,65559.4
+GM/Chevrolet,Mid-range,Equinox EV,2025,64750.83
+Volkswagen,Budget,ID.3,2023,32332.16
+BYD,Luxury,Qin,2026,112008.03
+Volkswagen,Luxury,ID. Buzz,2023,114648.63
+Porsche,Luxury,Taycan,2025,111303.96
+Tesla,Mid-range,Model Y,2021,60365.37
+Mercedes,Luxury,EQE,2025,198768.13
+Kia,Budget,Picanto EV,2024,32564.1
+Volkswagen,Luxury,ID. Buzz,2025,116578.08
+GM/Chevrolet,Mid-range,Bolt EV,2022,44453.56
+Hyundai,Budget,Ioniq,2021,33847.36
+Audi,Mid-range,Q6 e-tron,2024,51267.23
+Audi,Premium,e-tron,2025,77807.96
+Volkswagen,Premium,ID.4,2025,78903.54
+BYD,Premium,Leaf 50X,2024,75118.04
+Kia,Premium,EV9,2023,76777.22
+Audi,Luxury,Q4 e-tron,2025,119850.54
+BYD,Mid-range,Atto 3,2025,45553.77
+BMW,Luxury,i3,2023,111495.73
+BMW,Luxury,iX,2024,134617.67
+GM/Chevrolet,Mid-range,Bolt EV,2024,55216.4
+Tesla,Luxury,Model S,2023,163320.61
+GM/Chevrolet,Mid-range,Bolt EUV,2026,52994.74
+Audi,Luxury,e-tron,2024,111572.71
+Tesla,Premium,Model X,2024,79743.44
+BYD,Budget,Atto 3,2025,26326.68
+Fisker,Premium,Ocean,2026,67825.01
+Tesla,Premium,Model X,2022,78153.08
+Mercedes,Premium,GLE EV,2022,93751.44
+Hyundai,Premium,Kona Electric,2026,68247.96
+BYD,Premium,Qin,2023,89614.35
+Mercedes,Luxury,EQC,2026,185592.86
+Volkswagen,Mid-range,ID. Aero,2024,52450.92
+Hyundai,Mid-range,i30,2024,53836.77
+Volkswagen,Budget,ID. Aero,2022,29912.83
+Kia,Budget,Picanto EV,2024,34300.06
+Tesla,Luxury,Model 3,2025,130541.56
+Volkswagen,Mid-range,ID.4,2026,49575.71
+Fisker,Mid-range,Ronin,2025,60986.5
+BYD,Premium,Leaf 50X,2025,96175.42
+BMW,Luxury,i7,2025,162797.03
+BYD,Luxury,Max,2023,102394.49
+Ford,Mid-range,Explorer EV,2025,59495.32
+Tesla,Premium,Model 3,2024,99778.09
+Fisker,Premium,Ocean,2025,66660.45
+Volkswagen,Premium,ID.4,2023,78484.96
+BYD,Budget,Max,2023,30609.19
+Tesla,Luxury,Model X,2022,117706.38
+Tesla,Luxury,Cybertruck,2024,106068.73
+Hyundai,Premium,i30,2025,70681.91
+BYD,Mid-range,Atto 3,2024,41904.83
+Mercedes,Premium,EQS,2025,94342.22
+Volkswagen,Mid-range,ID. Aero,2024,40586.73
+BYD,Premium,Atto 3,2022,98782.03
+Kia,Mid-range,EV6,2022,40060.04
+GM/Chevrolet,Premium,Bolt EUV,2023,73854.22
+Tesla,Mid-range,Model X,2022,43328.14
+Tesla,Luxury,Model X,2025,100199.56
+Tesla,Luxury,Model Y,2025,135068.35
+GM/Chevrolet,Mid-range,Silverado EV,2026,64854.51
+BMW,Luxury,i4,2022,102335.06
+Hyundai,Premium,Kona Electric,2026,78808.06
+Mercedes,Premium,EQC,2026,89766.7
+Ford,Mid-range,Explorer EV,2024,54161.53
+Kia,Mid-range,Sportage EV,2022,38543.18
+Mercedes,Premium,EQE,2023,91688.58
+BYD,Premium,Atto 3,2023,72252.78
+Tesla,Budget,Model Y,2025,28188.64
+BYD,Budget,Yuan Plus,2025,32633.03
+Tesla,Mid-range,Model S,2025,61791.69
+Hyundai,Premium,Ioniq 5,2025,97448.38
+NIO,Premium,ET6,2025,75082.66
+Tesla,Mid-range,Model Y,2025,56042.12
+Tesla,Luxury,Model Y,2025,102064.68
+Volkswagen,Premium,ID. Aero,2024,92355.03
+Rivian,Luxury,R3,2025,105185.41
+BYD,Budget,Max,2023,20788.8
+Hyundai,Premium,Ioniq 6,2024,97949.17
+Tesla,Luxury,Cybertruck,2024,112719.54
+Tesla,Luxury,Model X,2025,155604.37
+Porsche,Luxury,Macan Electric,2023,107490.34
+Fisker,Luxury,Ocean,2023,100837.22
+Tesla,Luxury,Cybertruck,2024,112537.97
+Toyota,Premium,bZ4X,2024,65164.24
+BMW,Luxury,i4,2025,134002.07
+Mercedes,Luxury,EQE,2025,125283.58
+Volkswagen,Mid-range,ID.3,2022,53614.66
+Hyundai,Mid-range,Ioniq,2021,54289.29
+Hyundai,Premium,Ioniq,2023,69817.04
+BMW,Mid-range,i4,2024,47596.94
+Tesla,Mid-range,Model Y,2024,50416.8
+Tesla,Luxury,Model 3,2025,127858.88
+BYD,Budget,Dolphin,2026,27881.47
+GM/Chevrolet,Premium,Bolt EUV,2024,98117.57
+Tesla,Luxury,Cybertruck,2025,114028.98
+BMW,Premium,i7,2021,76431.36
+Fisker,Mid-range,Ocean,2025,47756.59
+Tesla,Luxury,Model S,2023,122960.47
+BMW,Premium,i5,2024,91502.74
+Volkswagen,Premium,ID. Buzz,2026,77633.04
+Mercedes,Premium,EQG,2022,74524.3
+Tesla,Budget,Model X,2026,27570.57
+GM/Chevrolet,Mid-range,Silverado EV,2023,42948.13
+Mercedes,Luxury,GLE EV,2022,100017.14
+Toyota,Luxury,bZ4X,2026,108712.63
+BMW,Premium,i7,2026,96474.96
+Hyundai,Budget,i30,2025,33127.96
+Kia,Mid-range,Niro EV,2025,52664.7
+Mercedes,Luxury,EQC,2022,117361.83
+Kia,Premium,Picanto EV,2024,91917.06
+Tesla,Luxury,Model 3,2023,128698.36
+Rivian,Luxury,R2,2025,100224.89
+BMW,Premium,i4,2025,66795.11
+BMW,Luxury,i3,2025,102396.37
+BYD,Mid-range,Seagull,2025,53276.57
+BMW,Luxury,i5,2025,102104.07
+Volkswagen,Mid-range,ID.3,2025,62840.41
+BMW,Luxury,i5,2024,131247.26
+Tesla,Premium,Model S,2025,84149.31
+BMW,Premium,iX,2025,71216.91
+Honda,Mid-range,e,2022,60662.04
+Tesla,Mid-range,Model X,2024,46217.92
+Lucid,Luxury,Air,2026,225594.15
+Volkswagen,Premium,ID. Buzz,2025,87726.28
+Mercedes,Luxury,EQE,2024,146623.72
+Ford,Mid-range,Mustang Mach-E,2022,64696.27
+Kia,Budget,Picanto EV,2024,26810.33
+GM/Chevrolet,Mid-range,Blazer EV,2024,45723.03
+Audi,Premium,Q6 e-tron,2025,99175.33
+Volkswagen,Premium,ID. Aero,2025,87997.46
+BYD,Budget,Leaf 50X,2025,25853.85
+BMW,Premium,i3,2025,66806.73
+Ford,Mid-range,F-150 Lightning,2024,38587.0
+Ford,Mid-range,Explorer EV,2024,61417.24
+Ford,Premium,F-150 Lightning,2026,73146.64
+Volkswagen,Premium,ID.4,2024,80127.24
+Ford,Premium,F-150 Lightning,2025,69759.03
+Tesla,Premium,Model 3,2023,68205.18
+Kia,Mid-range,EV9,2026,52324.87
+Tesla,Luxury,Model X,2025,119926.96
+BYD,Mid-range,Max,2022,59138.53
+Volkswagen,Premium,ID.3,2025,73427.05
+Volkswagen,Luxury,ID.4,2021,105115.96
+GM/Chevrolet,Mid-range,Bolt EV,2024,54375.97
+Volkswagen,Mid-range,ID. Aero,2025,61721.97
+Volkswagen,Premium,ID.4,2025,70848.39
+BYD,Mid-range,Seagull,2024,51370.62
+Volkswagen,Mid-range,ID.5,2021,44741.31
+BYD,Budget,Qin,2021,25493.2
+Tesla,Luxury,Model Y,2025,139788.5
+Kia,Budget,EV6,2020,29338.85
+BMW,Premium,iX,2024,73854.83
+BMW,Luxury,i3,2025,108403.17
+Hyundai,Mid-range,Kona Electric,2024,50241.81
+Volkswagen,Luxury,ID. Aero,2023,107650.74
+Mercedes,Premium,GLE EV,2026,89516.61
+Hyundai,Luxury,Ioniq 6,2024,106647.79
+Hyundai,Premium,Ioniq,2023,85387.82
+Tesla,Premium,Model S,2023,84622.11
+BYD,Budget,Atto 3,2025,28903.55
+Volkswagen,Premium,ID. Buzz,2025,88650.96
+Volkswagen,Premium,ID.4,2024,69709.16
+Kia,Premium,EV6,2023,68881.26
+Hyundai,Mid-range,Ioniq 5,2026,46435.85
+Kia,Mid-range,Niro EV,2023,53627.18
+Ford,Budget,Explorer EV,2025,31999.38
+Ford,Premium,E-Transit,2025,97440.5
+GM/Chevrolet,Budget,Equinox EV,2022,33771.62
+Toyota,Premium,bZ Compact SUV,2023,79916.17
+Tesla,Luxury,Model X,2025,133807.8
+Tesla,Mid-range,Model S,2025,43022.88
+Tesla,Premium,Model X,2026,88927.83
+BMW,Luxury,i5,2025,119539.21
+Audi,Premium,e-tron,2025,71446.39
+BYD,Premium,Max,2023,93434.88
+Rivian,Premium,R2,2024,96777.2
+Tesla,Luxury,Model 3,2024,142117.21
+NIO,Luxury,EL8,2024,119324.89
+BYD,Mid-range,Atto 3,2025,61646.7
+Tesla,Luxury,Model 3,2025,112948.48
+Hyundai,Premium,Kona Electric,2025,91101.0
+BYD,Budget,Qin,2022,30225.18
+BYD,Luxury,Atto 3,2025,104231.93
+BYD,Mid-range,Leaf 50X,2024,45940.66
+Ford,Premium,Mustang Mach-E,2025,68547.74
+Kia,Mid-range,EV6,2025,46513.0
+BYD,Premium,Max,2022,72612.58
+Kia,Budget,Niro EV,2022,34817.25
+GM/Chevrolet,Budget,Bolt EV,2025,34507.25
+BYD,Budget,Qin,2023,27057.77
+Volkswagen,Mid-range,ID.4,2020,48608.56
+Tesla,Budget,Model X,2025,30686.17
+Tesla,Mid-range,Cybertruck,2023,56003.28
+BMW,Premium,i3,2025,75699.03
+Tesla,Luxury,Model S,2025,102510.62
+Hyundai,Mid-range,Ioniq,2022,39241.19
+GM/Chevrolet,Premium,Bolt EUV,2025,74596.82
+Tesla,Mid-range,Model S,2024,62920.59
+Kia,Mid-range,EV9,2023,62846.87
+BYD,Mid-range,Yuan Plus,2023,44973.03
+Toyota,Premium,bZ Compact SUV,2026,86892.09
+Hyundai,Mid-range,Ioniq 6,2022,56768.4
+Ford,Premium,Explorer EV,2022,86649.72
+Kia,Premium,Picanto EV,2023,84710.91
+Tesla,Premium,Model S,2025,93767.76
+BMW,Luxury,iX,2025,133858.15
+Toyota,Premium,bZ4X,2026,73010.4
+Kia,Mid-range,Picanto EV,2026,53569.81
+Ford,Mid-range,Mustang Mach-E,2023,61247.58
+Audi,Luxury,Q4 e-tron,2024,130055.6
+BYD,Mid-range,Qin,2022,39142.51
+BYD,Budget,Max,2023,26581.17
+Kia,Premium,Sportage EV,2023,92527.86
+Volkswagen,Premium,ID. Aero,2022,73265.41
+Mercedes,Luxury,EQS,2022,178840.11
+Audi,Mid-range,Q6 e-tron,2024,55700.85
+BYD,Premium,Dolphin,2024,75079.65
+BYD,Mid-range,Qin,2022,46766.53
+Ford,Mid-range,Mustang Mach-E,2026,43574.22
+BYD,Premium,Leaf 50X,2025,71227.02
+Mercedes,Luxury,EQS,2024,126359.58
+Volkswagen,Mid-range,ID. Buzz,2021,35869.49
+BMW,Premium,i4,2025,84568.67
+Tesla,Luxury,Model Y,2023,106611.48
+BMW,Premium,i4,2024,82827.92
+Volkswagen,Mid-range,ID.3,2024,38832.16
+Kia,Mid-range,Niro EV,2025,52082.5
+Tesla,Luxury,Cybertruck,2024,125176.94
+GM/Chevrolet,Mid-range,Blazer EV,2024,46760.47
+Mercedes,Luxury,GLE EV,2024,134953.72
+BYD,Budget,Qin,2023,33832.39
+Tesla,Luxury,Model S,2021,143043.08
+Tesla,Premium,Model X,2021,66814.08
+BMW,Luxury,iX,2025,135695.35
+Kia,Premium,Niro EV,2025,65977.95
+Kia,Premium,EV6,2026,95775.65
+BYD,Premium,Qin,2026,79542.78
+Volkswagen,Premium,ID.3,2023,92433.28
+Kia,Mid-range,Niro EV,2024,56059.51
+Hyundai,Mid-range,Ioniq 5,2024,60016.36
+Porsche,Luxury,Macan Electric,2024,184202.43
+Tesla,Mid-range,Cybertruck,2022,57537.68
+GM/Chevrolet,Mid-range,Bolt EV,2021,47454.86
+Volkswagen,Mid-range,ID.5,2024,52456.57
+Volkswagen,Budget,ID.5,2022,27966.77
+GM/Chevrolet,Mid-range,Equinox EV,2021,61755.21
+GM/Chevrolet,Mid-range,Bolt EUV,2025,36433.27
+Volvo,Luxury,XC40 Recharge,2026,111533.26
+Tesla,Premium,Model S,2026,81673.28
+Tesla,Mid-range,Cybertruck,2026,55329.7
+GM/Chevrolet,Mid-range,Equinox EV,2025,49790.46
+Kia,Premium,Niro EV,2024,82833.74
+BYD,Luxury,Dolphin,2024,104505.82
+Tesla,Mid-range,Model Y,2022,45169.5
+Tesla,Luxury,Model S,2025,135056.97
+Audi,Premium,Q6 e-tron,2026,79000.66
+Tesla,Mid-range,Model 3,2025,50205.39
+BYD,Budget,Max,2025,24481.15
+BYD,Mid-range,Dolphin,2024,51538.03
+BYD,Budget,Atto 3,2024,19083.54
+Tesla,Mid-range,Model Y,2024,37255.18
+Hyundai,Budget,Ioniq,2022,28093.63
+Tesla,Premium,Cybertruck,2025,88007.74
+Ford,Premium,Explorer EV,2025,75193.9
+BYD,Premium,Yuan Plus,2026,90374.6
+Kia,Luxury,Niro EV,2025,111745.56
+Audi,Luxury,Q4 e-tron,2022,144615.75
+BMW,Premium,i5,2025,69328.91
+Hyundai,Mid-range,Ioniq 5,2022,39046.61
+BYD,Premium,Seagull,2025,79832.09
+BYD,Mid-range,Seagull,2024,51226.67
+BMW,Premium,i5,2024,70389.46
+Volvo,Premium,XC90 Recharge,2022,90661.21
+BMW,Luxury,i7,2022,154009.88
+Kia,Mid-range,EV6,2025,61993.33
+GM/Chevrolet,Budget,Blazer EV,2025,34424.61
+Hyundai,Mid-range,Kona Electric,2025,53515.28
+Tesla,Luxury,Model S,2026,127635.34
+Kia,Budget,EV6,2024,31230.72
+Toyota,Mid-range,bZ4X,2025,46568.71
+Tesla,Premium,Model X,2025,95625.9
+BMW,Luxury,i7,2022,116700.28
+Tesla,Premium,Cybertruck,2022,88720.74
+Hyundai,Mid-range,Ioniq 5,2026,59666.31
+Tesla,Luxury,Cybertruck,2024,148667.6
+Volkswagen,Mid-range,ID. Buzz,2025,48208.86
+GM/Chevrolet,Mid-range,Bolt EV,2021,57965.58
+BYD,Premium,Yuan Plus,2026,92189.49
+BMW,Premium,i5,2020,94185.6
+Ford,Mid-range,Mustang Mach-E,2024,38196.95
+Rivian,Premium,R2,2020,74902.51
+BYD,Premium,Leaf 50X,2024,77872.95
+Volkswagen,Premium,ID.4,2025,76084.88
+Tesla,Mid-range,Model X,2023,55932.63
+Volvo,Mid-range,C40 Recharge,2022,45992.59
+Rivian,Mid-range,R1T,2020,64055.95
+Kia,Mid-range,EV9,2025,39329.81
+Mercedes,Luxury,EQS,2024,200859.77
+Hyundai,Premium,Kona Electric,2025,83020.49
+BMW,Luxury,i7,2023,131127.44
+Tesla,Mid-range,Model Y,2023,63692.69
+GM/Chevrolet,Mid-range,Bolt EV,2025,37683.39
+Tesla,Mid-range,Model Y,2025,40474.28
+Mercedes,Luxury,EQS,2024,111876.0
+Ford,Luxury,F-150 Lightning,2024,106766.97
+GM/Chevrolet,Mid-range,Bolt EUV,2025,47998.86
+Tesla,Premium,Model X,2024,78351.88
+BYD,Luxury,Qin,2025,101756.01
+BYD,Mid-range,Yuan Plus,2021,36438.81
+Volkswagen,Mid-range,ID.4,2024,45113.98
+Tesla,Luxury,Model Y,2024,117810.94
+NIO,Mid-range,EC6,2022,64086.32
+Kia,Premium,Niro EV,2026,71757.16
+BYD,Premium,Max,2026,71385.39
+Volkswagen,Premium,ID. Aero,2023,82345.29
+Volkswagen,Premium,ID.4,2024,69646.08
+Kia,Mid-range,Niro EV,2023,59632.87
+Hyundai,Mid-range,Ioniq,2024,44796.76
+Rivian,Premium,R3,2025,79722.65
+Hyundai,Premium,Ioniq 5,2025,65433.15
+Volvo,Premium,XC90 Recharge,2024,75390.6
+Mercedes,Premium,EQG,2024,95795.03
+BYD,Premium,Yuan Plus,2024,65610.36
+Rivian,Premium,R1S,2024,85223.91
+Tesla,Luxury,Model S,2026,173601.0
+Ford,Premium,Explorer EV,2024,93391.97
+Volkswagen,Mid-range,ID.5,2025,60858.6
+Audi,Premium,Q6 e-tron,2024,68629.02
+Mercedes,Luxury,EQG,2025,128362.44
+Ford,Luxury,E-Transit,2024,115288.59
+Ford,Premium,Explorer EV,2021,97933.8
+BYD,Mid-range,Yuan Plus,2024,42922.38
+Tesla,Luxury,Model 3,2025,103423.57
+Volkswagen,Mid-range,ID.3,2025,46681.91
+Tesla,Mid-range,Model Y,2025,38868.67
+GM/Chevrolet,Mid-range,Bolt EV,2023,39441.22
+BYD,Mid-range,Seagull,2025,53845.68
+Lucid,Luxury,Air,2024,156097.02
+BMW,Luxury,i3,2024,130176.15
+Mercedes,Luxury,EQG,2025,153235.91
+Tesla,Mid-range,Model X,2025,60275.05
+Mercedes,Luxury,EQC,2025,202973.51
+Rivian,Luxury,R2,2021,113614.29
+Hyundai,Premium,Ioniq 6,2024,77513.92
+Kia,Mid-range,Sportage EV,2023,47384.85
+Ford,Premium,Explorer EV,2025,69671.76
+Tesla,Luxury,Cybertruck,2024,110128.5
+Hyundai,Mid-range,Ioniq 5,2025,63434.69
+Volkswagen,Mid-range,ID. Aero,2022,60508.93
+Tesla,Luxury,Model X,2023,111766.84
+Volkswagen,Luxury,ID.5,2025,101757.37
+Tesla,Luxury,Model X,2021,118010.78
+Tesla,Premium,Model X,2024,80831.47
+Tesla,Luxury,Model X,2021,118192.05
+Toyota,Mid-range,bZ4X,2025,48846.72
+Kia,Premium,EV6,2023,82403.5
+Fisker,Premium,Ronin,2024,85586.47
+Volkswagen,Mid-range,ID.3,2024,53590.91
+BYD,Premium,Qin,2022,70030.57
+Hyundai,Budget,i30,2024,31256.77
+Volkswagen,Premium,ID. Aero,2022,77144.75
+Tesla,Luxury,Model 3,2025,133323.67
+BMW,Mid-range,i3,2025,61490.61
+BYD,Mid-range,Leaf 50X,2024,56202.17
+BMW,Luxury,i3,2025,113220.74
+BMW,Luxury,i5,2023,104739.58
+Tesla,Luxury,Model S,2026,120237.63
+Tesla,Premium,Model X,2025,86049.94
+Ford,Luxury,F-150 Lightning,2024,113010.15
+Hyundai,Premium,Ioniq 5,2022,87757.22
+Tesla,Premium,Model X,2022,77379.74
+Volvo,Premium,C40 Recharge,2025,87551.42
+Tesla,Mid-range,Cybertruck,2023,40789.91
+GM/Chevrolet,Budget,Equinox EV,2022,32829.19
+Polestar,Premium,4,2023,90903.84
+BYD,Premium,Max,2023,98961.38
+Tesla,Luxury,Model X,2025,108924.8
+Tesla,Premium,Model S,2021,76847.7
+BYD,Mid-range,Qin,2023,52355.75
+Tesla,Premium,Model 3,2025,91015.05
+GM/Chevrolet,Mid-range,Bolt EUV,2025,44784.34
+Tesla,Premium,Model 3,2025,84994.49
+Hyundai,Premium,i30,2026,95007.35
+Xiaomi,Premium,SU7,2024,89310.64
+Ford,Premium,Mustang Mach-E,2024,67107.54
+Kia,Mid-range,Niro EV,2024,56356.86
+BYD,Budget,Leaf 50X,2024,21286.38
+BMW,Premium,i4,2025,88308.2
+Hyundai,Luxury,Ioniq,2024,103986.41
+Volkswagen,Budget,ID.4,2020,27139.23
+Tesla,Mid-range,Model Y,2026,53435.31
+Audi,Premium,e-tron GT,2023,88280.78
+Volkswagen,Premium,ID.5,2025,76426.72
+Tesla,Mid-range,Model S,2023,45116.56
+Volkswagen,Premium,ID.5,2024,68348.69
+Volkswagen,Mid-range,ID.4,2023,49537.91
+Mercedes,Luxury,EQG,2025,111628.51
+GM/Chevrolet,Mid-range,Bolt EUV,2026,54836.04
+Ford,Budget,F-150 Lightning,2025,34802.06
+Tesla,Premium,Model Y,2022,93506.44
+Volkswagen,Premium,ID.4,2024,79224.44
+Hyundai,Mid-range,Kona Electric,2025,43459.69
+Tesla,Luxury,Model X,2021,100894.61
+BYD,Budget,Dolphin,2026,31398.12
+GM/Chevrolet,Premium,Blazer EV,2024,85774.4
+Tesla,Mid-range,Model 3,2023,53096.09
+Hyundai,Mid-range,Ioniq 5,2023,40063.52
+BYD,Premium,Seagull,2023,72565.72
+Tesla,Premium,Model S,2023,90489.19
+BYD,Mid-range,Yuan Plus,2026,58741.09
+Lucid,Luxury,Gravity,2025,166388.92
+Ford,Premium,E-Transit,2022,72683.98
+Toyota,Premium,bZ4X,2021,93898.99
+Hyundai,Premium,Ioniq 6,2023,79421.07
+Tesla,Premium,Model 3,2022,78038.19
+Kia,Premium,Niro EV,2026,89456.85
+Volkswagen,Premium,ID.3,2020,81317.3
+Mercedes,Luxury,GLE EV,2021,133886.35
+Tesla,Luxury,Model 3,2026,123396.13
+Hyundai,Premium,Kona Electric,2023,89541.12
+Tesla,Budget,Model S,2025,30387.16
+BYD,Budget,Atto 3,2024,21707.92
+GM/Chevrolet,Mid-range,Bolt EV,2024,52232.74
+Hyundai,Premium,Ioniq,2025,78178.94
+Volkswagen,Budget,ID.5,2025,32608.87
+Volkswagen,Mid-range,ID. Aero,2024,64646.52
+Hyundai,Mid-range,Kona Electric,2026,40896.41
+Ford,Premium,E-Transit,2024,99172.17
+Audi,Premium,Q6 e-tron,2025,97077.65
+Toyota,Premium,bZ4X,2025,75339.45
+Ford,Premium,Mustang Mach-E,2025,72824.56
+BYD,Budget,Atto 3,2025,26097.55
+BMW,Premium,i3,2023,89086.86
+Volkswagen,Premium,ID.5,2026,72231.36
+BYD,Premium,Leaf 50X,2022,80180.18
+Mercedes,Luxury,EQS,2023,111693.41
+Tesla,Luxury,Model S,2026,119620.48
+Audi,Mid-range,Q4 e-tron,2025,63113.08
+Hyundai,Premium,i30,2026,83199.83
+BMW,Luxury,iX,2023,130324.5
+BMW,Premium,i5,2024,92379.17
+Audi,Luxury,Q4 e-tron,2025,154475.14
+BMW,Premium,i5,2024,78676.53
+Kia,Mid-range,EV9,2021,56383.76
+Tesla,Mid-range,Model Y,2025,51114.48
+Hyundai,Mid-range,Ioniq 6,2024,44088.19
+Tesla,Premium,Model 3,2023,98229.28
+GM/Chevrolet,Premium,Equinox EV,2026,71801.02
+Hyundai,Mid-range,Ioniq 6,2024,63404.54
+BMW,Luxury,i3,2023,126296.04
+Tesla,Premium,Model S,2024,91117.32
+Tesla,Mid-range,Cybertruck,2026,39888.42
+GM/Chevrolet,Premium,Bolt EUV,2024,75461.19
+Tesla,Luxury,Cybertruck,2023,182463.57
+Tesla,Mid-range,Model X,2023,43481.03
+Tesla,Premium,Model 3,2025,70038.71
+Toyota,Mid-range,bZ4X,2024,60316.9
+GM/Chevrolet,Mid-range,Bolt EV,2024,46964.58
+BYD,Luxury,Dolphin,2021,107053.36
+BYD,Premium,Atto 3,2023,73542.57
+BYD,Mid-range,Qin,2025,52251.33
+Ford,Premium,Explorer EV,2025,67752.89
+BMW,Mid-range,i5,2025,48714.2
+Tesla,Budget,Model X,2026,31180.54
+Tesla,Premium,Model Y,2025,68461.67
+Tesla,Mid-range,Model S,2023,51643.69
+BMW,Premium,iX,2025,66272.64
+Ford,Premium,F-150 Lightning,2025,68957.58
+BYD,Mid-range,Dolphin,2024,51238.4
+Tesla,Luxury,Model Y,2025,114587.9
+Tesla,Mid-range,Cybertruck,2024,43048.0
+Fisker,Mid-range,Ocean,2025,54042.0
+BYD,Budget,Atto 3,2025,34873.27
+Ford,Mid-range,Explorer EV,2025,47275.39
+BMW,Premium,i4,2024,69815.81
+Volkswagen,Premium,ID.5,2025,95115.92
+BYD,Budget,Qin,2025,33846.45
+Tesla,Premium,Cybertruck,2025,98891.22
+Kia,Mid-range,Picanto EV,2020,51182.15
+Ford,Mid-range,E-Transit,2023,53190.35
+BMW,Premium,i5,2024,73900.67
+Hyundai,Mid-range,Kona Electric,2023,49376.97
+Tesla,Luxury,Model 3,2025,129475.2
+Fisker,Premium,Ocean,2023,81514.31
+Ford,Budget,F-150 Lightning,2024,33054.57
+BYD,Mid-range,Dolphin,2024,38277.53
+Polestar,Premium,3,2023,77182.19
+Kia,Premium,Picanto EV,2025,80721.44
+Kia,Mid-range,EV6,2021,36092.98
+GM/Chevrolet,Mid-range,Equinox EV,2022,59493.52
+Ford,Mid-range,Explorer EV,2023,38433.81
+BMW,Premium,i3,2024,73301.49
+Tesla,Luxury,Model Y,2025,113868.37
+BYD,Luxury,Dolphin,2024,100526.02
+Rivian,Premium,R3,2025,78088.2
+BYD,Luxury,Qin,2025,101418.24
+Volkswagen,Premium,ID.3,2023,99609.58
+Volkswagen,Premium,ID.3,2025,66620.77
+Volkswagen,Premium,ID.3,2021,70654.72
+Kia,Luxury,Niro EV,2025,110498.55
+NIO,Luxury,EL8,2025,104953.65
+BYD,Mid-range,Leaf 50X,2024,42041.16
+Tesla,Luxury,Model S,2025,120338.19
+Tesla,Luxury,Model Y,2025,147345.82
+Audi,Premium,e-tron GT,2025,69716.21
+BMW,Premium,i7,2025,88626.17
+BYD,Premium,Max,2022,68088.93
+Ford,Premium,E-Transit,2024,97929.01
+Mercedes,Luxury,EQE,2022,118966.22
+Mercedes,Luxury,GLE EV,2021,167760.51
+Rivian,Luxury,R3,2024,105996.52
+BYD,Premium,Max,2023,94064.69
+GM/Chevrolet,Mid-range,Equinox EV,2025,58372.94
+Hyundai,Mid-range,Ioniq 5,2025,64470.9
+Mercedes,Luxury,EQG,2022,140186.97
+GM/Chevrolet,Premium,Silverado EV,2025,70759.08
+Ford,Mid-range,Explorer EV,2025,57566.92
+BMW,Luxury,i5,2026,125686.6
+Tesla,Mid-range,Model S,2024,64261.34
+Kia,Budget,Sportage EV,2023,31014.43
+Polestar,Luxury,3,2024,116528.23
+NIO,Luxury,EL6,2024,144156.68
+Tesla,Premium,Model X,2024,97305.17
+Tesla,Mid-range,Cybertruck,2021,64613.56
+Tesla,Luxury,Model Y,2024,142240.31
+GM/Chevrolet,Mid-range,Blazer EV,2023,45534.53
+Ford,Premium,F-150 Lightning,2024,88743.58
+BYD,Mid-range,Dolphin,2021,36671.61
+Hyundai,Mid-range,Ioniq 5,2025,37110.33
+Mercedes,Luxury,EQE,2025,103655.43
+GM/Chevrolet,Mid-range,Blazer EV,2024,41328.5
+Kia,Budget,Picanto EV,2025,28245.98
+Kia,Mid-range,Niro EV,2025,55056.42
+Hyundai,Premium,Kona Electric,2024,69523.19
+BYD,Budget,Atto 3,2024,25253.73
+Kia,Premium,Sportage EV,2022,89447.77
+BMW,Premium,iX,2025,76098.9
+Audi,Luxury,Q4 e-tron,2024,103666.6
+BMW,Premium,i4,2024,86675.29
+GM/Chevrolet,Mid-range,Bolt EUV,2021,64473.77
+Tesla,Mid-range,Cybertruck,2025,55743.68
+Hyundai,Premium,i30,2025,72352.97
+Tesla,Premium,Model 3,2024,92846.92
+BYD,Mid-range,Dolphin,2025,64952.61
+GM/Chevrolet,Budget,Equinox EV,2024,32869.42
+Volvo,Mid-range,C40 Recharge,2022,46215.01
+Tesla,Luxury,Model 3,2025,109716.37
+Volkswagen,Premium,ID.4,2022,82795.09
+Ford,Mid-range,Mustang Mach-E,2026,61924.92
+BYD,Mid-range,Leaf 50X,2025,51480.21
+Kia,Premium,Sportage EV,2026,75695.59
+GM/Chevrolet,Budget,Blazer EV,2023,30572.73
+Kia,Premium,Sportage EV,2021,92296.55
+Tesla,Mid-range,Model S,2023,41460.27
+Volkswagen,Mid-range,ID.3,2025,53934.12
+Ford,Premium,Explorer EV,2024,86809.78
+Kia,Luxury,EV9,2024,107669.85
+Tesla,Luxury,Cybertruck,2025,113505.79
+GM/Chevrolet,Mid-range,Bolt EV,2024,37659.35
+Tesla,Luxury,Cybertruck,2025,118632.47
+GM/Chevrolet,Premium,Bolt EUV,2026,71451.17
+Tesla,Premium,Model S,2025,66113.76
+Toyota,Mid-range,bZ4X,2022,46862.78
+Volkswagen,Premium,ID.3,2023,70444.74
+BYD,Premium,Qin,2022,77020.14
+Tesla,Luxury,Model S,2025,169177.37
+BYD,Mid-range,Atto 3,2025,39603.87
+Audi,Mid-range,Q4 e-tron,2023,48523.32
+Xiaomi,Mid-range,SU7,2021,49221.78
+Volkswagen,Mid-range,ID.3,2023,57817.4
+Volkswagen,Premium,ID. Buzz,2020,72240.69
+GM/Chevrolet,Premium,Equinox EV,2022,82968.06
+Audi,Premium,e-tron,2023,82135.99
+Kia,Budget,EV9,2020,33055.17
+Volkswagen,Premium,ID.4,2022,97372.99
+Volkswagen,Mid-range,ID.3,2024,62606.34
+GM/Chevrolet,Premium,Silverado EV,2024,80871.59
+Tesla,Budget,Model 3,2025,27829.58
+BMW,Luxury,i3,2025,104401.84
+Volkswagen,Premium,ID.3,2026,77434.92
+Ford,Mid-range,F-150 Lightning,2025,55789.82
+Tesla,Mid-range,Model Y,2026,43501.07
+Kia,Premium,EV9,2024,73063.27
+Hyundai,Budget,Ioniq 5,2022,34455.09
+BMW,Luxury,i3,2024,123235.74
+Tesla,Luxury,Cybertruck,2024,117988.5
+Kia,Mid-range,Niro EV,2024,39013.49
+Kia,Mid-range,Picanto EV,2024,50328.06
+Kia,Mid-range,Picanto EV,2025,48934.98
+Kia,Premium,Sportage EV,2025,89200.56
+BMW,Luxury,iX,2025,133417.07
+Ford,Mid-range,Explorer EV,2025,63490.76
+BYD,Luxury,Leaf 50X,2025,109495.59
+Mercedes,Luxury,EQE,2023,112177.54
+Hyundai,Mid-range,Ioniq 6,2022,45588.01
+Tesla,Premium,Model Y,2022,79776.37
+Tesla,Luxury,Model X,2024,138879.13
+BYD,Premium,Qin,2021,78313.97
+Ford,Premium,E-Transit,2024,81564.12
+GM/Chevrolet,Mid-range,Silverado EV,2025,62818.0
+Ford,Premium,Explorer EV,2026,99667.98
+Hyundai,Budget,i30,2023,33062.26
+Volkswagen,Mid-range,ID.3,2025,46781.6
+Tesla,Luxury,Model S,2022,127540.88
+BYD,Mid-range,Seagull,2024,53792.67
+Volkswagen,Luxury,ID. Buzz,2023,110994.9
+Tesla,Premium,Model X,2022,85291.7
+BYD,Premium,Seagull,2024,83643.93
+Kia,Luxury,EV6,2025,117355.84
+GM/Chevrolet,Premium,Silverado EV,2023,95648.05
+Xiaomi,Mid-range,SU7,2025,55836.28
+Rivian,Luxury,R2,2025,102186.85
+BMW,Luxury,i4,2025,101731.56
+Volkswagen,Mid-range,ID. Aero,2023,44658.67
+BMW,Luxury,i3,2024,104797.89
+Ford,Mid-range,F-150 Lightning,2025,53246.45
+Tesla,Luxury,Model S,2025,176582.51
+Volkswagen,Premium,ID.4,2023,78653.83
+Mercedes,Luxury,EQC,2024,113687.69
+Volkswagen,Mid-range,ID.4,2024,61036.31
+Kia,Mid-range,EV6,2026,46823.3
+Kia,Premium,Picanto EV,2022,73622.08
+Tesla,Premium,Cybertruck,2026,70200.56
+Volkswagen,Premium,ID. Aero,2025,86735.2
+BYD,Luxury,Max,2024,105441.86
+Tesla,Premium,Cybertruck,2025,98106.32
+Tesla,Luxury,Model 3,2024,128470.34
+Mercedes,Premium,GLE EV,2025,92407.64
+BYD,Premium,Dolphin,2022,71011.58
+Hyundai,Premium,Kona Electric,2025,92989.48
+BYD,Premium,Leaf 50X,2023,74284.45
+NIO,Premium,ET6,2024,78059.06
+BYD,Luxury,Seagull,2023,109450.6
+Volkswagen,Mid-range,ID.3,2024,49550.91
+Mercedes,Luxury,EQG,2025,102050.83
+Mercedes,Premium,EQE,2026,93286.78
+Tesla,Luxury,Model X,2023,164467.67
+Ford,Mid-range,Mustang Mach-E,2025,62237.09
+Hyundai,Mid-range,Ioniq 5,2023,55335.52
+Hyundai,Mid-range,Ioniq,2026,37257.29
+Tesla,Mid-range,Cybertruck,2025,45726.22
+Tesla,Luxury,Model Y,2025,107944.96
+GM/Chevrolet,Mid-range,Silverado EV,2020,45327.78
+Hyundai,Mid-range,Ioniq 5,2023,41738.1
+Volkswagen,Premium,ID. Aero,2026,69452.44
+GM/Chevrolet,Premium,Equinox EV,2021,65656.76
+Ford,Mid-range,E-Transit,2025,61660.35
+Tesla,Premium,Model 3,2025,72436.36
+Kia,Mid-range,EV9,2025,49012.19
+Tesla,Luxury,Model S,2026,119417.95
+GM/Chevrolet,Budget,Equinox EV,2024,34301.37
+BMW,Luxury,i3,2023,122665.71
+Toyota,Premium,bZ4X,2024,66816.55
+Tesla,Mid-range,Model 3,2025,49281.26
+Tesla,Luxury,Model X,2026,139665.73
+BYD,Mid-range,Qin,2025,47547.88
