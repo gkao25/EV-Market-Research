@@ -187,23 +187,44 @@ details.multi .options label {
   max-width: 800px;
 }
 
+.line-container {
+  position: relative;
+}
+
 #legend {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-  margin-top: 0.5rem;
+  justify-content: flex-end;
+  align-items: center;
+
+  gap: 8px 14px;
+  max-width: 75%;
+
+
+  font-size: 13px;
 }
 
 .legend-item {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 5px;
+  white-space: nowrap;
 }
 
 .legend-item .swatch {
-  width: 14px;
-  height: 14px;
-  border-radius: 2px;
+  display: inline-block;
+  width: 18px;
+  height: 4px;
+  flex-shrink: 0;
+}
+
+.label {
+  white-space: nowrap;
 }
 
 .empty-msg {

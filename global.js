@@ -19,7 +19,9 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-  // Domains come from ALL data so the axes stay fixed while filtering
+  
+
+    // Domains come from ALL data so the axes stay fixed while filtering
   const [dataMin, dataMax] = d3.extent(data, (d) => d.year);
   const x = d3
     .scaleLinear()
@@ -218,19 +220,33 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
       );
 
     // Legend
+    // Legend
     const items = d3
-      .select("#legend")
-      .selectAll(".legend-item")
-      .data(series, (d) => d[0])
-      .join((enter) => {
-        const item = enter.append("span").attr("class", "legend-item");
-        item.append("span").attr("class", "swatch");
-        item.append("span").attr("class", "label");
-        return item;
-      });
-    items.select(".swatch").style("background", (d) => color(d[0]));
-    items.select(".label").text((d) => d[0]);
-  }
+  .select("#legend")
+  .selectAll(".legend-item")
+  .data(series, (d) => d[0])
+  .join((enter) => {
+    const item = enter
+      .append("span")
+      .attr("class", "legend-item");
+
+    item.append("span")
+      .attr("class", "swatch");
+
+    item.append("span")
+      .attr("class", "label");
+
+    return item;
+  });
+
+items
+  .select(".swatch")
+  .style("background", (d) => color(d[0]));
+
+items
+  .select(".label")
+  .text((d) => d[0]);
+}
 
   update(); // initial draw
 });
