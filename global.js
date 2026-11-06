@@ -2,6 +2,7 @@
 
 // let brandSel = document.querySelector("#brand");
 // let tierSel = document.querySelector("#tier");
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
 
 d3.csv("../data/cleaned_ev_data.csv", (d) => ({
   brand: d.brand,
