@@ -20,9 +20,10 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
   // Domains come from ALL data so the axes stay fixed while filtering
+  const [dataMin, dataMax] = d3.extent(data, (d) => d.year);
   const x = d3
     .scaleLinear()
-    .domain(d3.extent(data, (d) => d.year))
+    .domain([dataMin - 0.5, dataMax + 0.5]) // half a year of padding each side
     .range([0, width]);
   const y = d3
     .scaleLinear()
@@ -33,7 +34,12 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
   svg
     .append("g")
     .attr("transform", `translate(0,${height})`)
-    .call(d3.axisBottom(x).tickFormat(d3.format("d")));
+    .call(
+      d3
+        .axisBottom(x)
+        .tickValues(d3.range(dataMin, dataMax + 1)) // whole years only
+        .tickFormat(d3.format("d")),
+    );
   svg.append("g").call(d3.axisLeft(y).tickFormat(d3.format("$,")));
 
   const linesLayer = svg.append("g");
