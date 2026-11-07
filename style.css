@@ -99,6 +99,8 @@ main {
 
 figure {
   margin: 1em 0;
+
+  position: relative;
   padding: 0.5rem;
   margin-inline: -0.5em;
   border: 1px solid var(--color-neutral-80);
@@ -189,12 +191,13 @@ details.multi .options label {
 
 .line-container {
   position: relative;
+  
 }
 
 #legend {
   position: absolute;
-  top: 5px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
 
   display: flex;
   flex-direction: row;

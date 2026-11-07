@@ -12,8 +12,10 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
   price: +d.price_usd,
 })).then((data) => {
   const margin = { top: 20, right: 30, bottom: 40, left: 70 };
-  const width = 700 - margin.left - margin.right;
-  const height = 400 - margin.top - margin.bottom;
+  const svgWidth = 700;
+  const svgHeight = 400;
+  const width = svgWidth - margin.left - margin.right;
+  const height = svgHeight - margin.top - margin.bottom;
 
   const svg = d3
     .select("#line-chart")
@@ -28,11 +30,25 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
     .scaleLinear()
     .domain([dataMin - 0.5, dataMax + 0.5]) // half a year of padding each side
     .range([0, width]);
-  const y = d3
-    .scaleLinear()
-    .domain([0, d3.max(data, (d) => d.price)])
-    .nice()
-    .range([height, 0]);
+
+  const minPrice = d3.min(data, d => d.price);
+  const maxPrice = d3.max(data, d => d.price);
+
+  const y = d3.scaleLinear()
+  .domain([
+    minPrice * 0.95,
+    maxPrice * 1.05
+  ])
+  .nice()
+  .range([height, 0]);
+
+  svg
+  .append("defs")
+  .append("clipPath")
+  .attr("id", "chart-clip")
+  .append("rect")
+  .attr("width", width)
+  .attr("height", height);
 
   svg
     .append("g")
@@ -45,7 +61,8 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
     );
   svg.append("g").call(d3.axisLeft(y).tickFormat(d3.format("$,")));
 
-  const linesLayer = svg.append("g");
+  const linesLayer = svg.append("g")
+  .attr("clip-path", "url(#chart-clip)");
   // Empty-state message (hidden until there's no data)
   const emptyMsg = svg
     .append("text")
