@@ -24,43 +24,37 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-  // Domains come from ALL data so the axes stay fixed while filtering
+  // ---------- Scales ----------
   const [dataMin, dataMax] = d3.extent(data, (d) => d.year);
   const x = d3
     .scaleLinear()
-    .domain([dataMin - 0.5, dataMax + 0.5]) // half a year of padding each side
+    .domain([dataMin - 0.5, dataMax + 0.5])
     .range([0, width]);
 
   const minPrice = d3.min(data, (d) => d.price);
   const maxPrice = d3.max(data, (d) => d.price);
-
   const y = d3
     .scaleLinear()
     .domain([minPrice * 0.95, maxPrice * 1.05])
     .nice()
     .range([height, 0]);
 
-  svg
-    .append("defs")
-    .append("clipPath")
-    .attr("id", "chart-clip")
-    .append("rect")
-    .attr("width", width)
-    .attr("height", height);
-
+  // ---------- Axes ----------
   svg
     .append("g")
     .attr("transform", `translate(0,${height})`)
     .call(
       d3
         .axisBottom(x)
-        .tickValues(d3.range(dataMin, dataMax + 1)) // whole years only
+        .tickValues(d3.range(dataMin, dataMax + 1))
         .tickFormat(d3.format("d")),
     );
   svg.append("g").call(d3.axisLeft(y).tickFormat(d3.format("$,")));
 
+  // ---------- Layers (order = stacking order) ----------
   const linesLayer = svg.append("g");
-  // Empty-state message (hidden until there's no data)
+  const pointsLayer = svg.append("g"); // NEW: dots on each year
+
   const emptyMsg = svg
     .append("text")
     .attr("class", "empty-msg")
@@ -69,12 +63,19 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
     .attr("text-anchor", "middle")
     .text("No data for this selection")
     .style("opacity", 0);
+
   const line = d3
     .line()
     .x((d) => x(d.year))
     .y((d) => y(d.avgPrice));
 
   const color = d3.scaleOrdinal(d3.schemeTableau10);
+  const priceFmt = d3.format("$,.0f");
+
+  // ---------- State shared with the tooltip ----------
+  let currentSeries = [];
+  let currentMeta = new Map(); // series key -> {brand, tier}
+  const hiddenKeys = new Set(); // series hidden via the legend
 
   // ---------- Multi-select checkbox dropdowns ----------
   function buildMultiSelect(menuId, label, values) {
@@ -97,7 +98,6 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
       });
     rows.append("span").text((d) => d);
 
-    // Clear button
     menu
       .select(".options")
       .append("button")
@@ -131,10 +131,9 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
 
   // Custom order for market segments, high to low
   const tierOrder = ["luxury", "premium", "mid-range", "budget"];
-
   const tierRank = (t) => {
     const i = tierOrder.indexOf(t.toLowerCase());
-    return i === -1 ? tierOrder.length : i; // unknown values go last
+    return i === -1 ? tierOrder.length : i;
   };
 
   const tierValues = [...new Set(data.map((d) => d.tier))].sort(
@@ -148,31 +147,143 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
   );
   buildMultiSelect("#tier-menu", "Tier", tierValues);
 
-  // Close an open dropdown when clicking outside it
   document.addEventListener("click", (e) => {
     document.querySelectorAll("details.multi[open]").forEach((el) => {
       if (!el.contains(e.target)) el.removeAttribute("open");
     });
   });
 
-  // ---------- Update chart ----------
+  // ---------- Hover: guide line, tooltip, overlay ----------
+  const guideLine = svg
+    .append("line")
+    .attr("class", "guide-line")
+    .attr("y1", 0)
+    .attr("y2", height)
+    .style("display", "none");
 
+  const tooltip = d3
+    .select("body")
+    .append("div")
+    .attr("class", "chart-tooltip")
+    .style("display", "none");
+
+  function hideHover() {
+    guideLine.style("display", "none");
+    tooltip.style("display", "none");
+    pointsLayer.selectAll("circle").attr("r", 4);
+  }
+
+  // Transparent rect on top that captures the mouse over the plot area
+  svg
+    .append("rect")
+    .attr("class", "hover-overlay")
+    .attr("width", width)
+    .attr("height", height)
+    .attr("fill", "none")
+    .attr("pointer-events", "all")
+    .on("mousemove", (event) => {
+      const [mx] = d3.pointer(event);
+      const year = Math.min(
+        dataMax,
+        Math.max(dataMin, Math.round(x.invert(mx))),
+      );
+
+      // One row per visible series that has a point in this year
+      const rows = currentSeries
+        .filter((s) => !hiddenKeys.has(s[0]))
+        .map((s) => {
+          const p = s[1].find((p) => p.year === year);
+          return (
+            p && { key: s[0], ...currentMeta.get(s[0]), price: p.avgPrice }
+          );
+        })
+        .filter(Boolean)
+        .sort((a, b) => b.price - a.price); // highest price first
+
+      if (rows.length === 0) {
+        hideHover();
+        return;
+      }
+
+      // Vertical line + enlarge this year's points
+      guideLine.style("display", null).attr("x1", x(year)).attr("x2", x(year));
+      pointsLayer
+        .selectAll("circle")
+        .attr("r", (p) => (p.year === year ? 6 : 4));
+
+      // Tooltip content: one table, all points for the year
+      tooltip.style("display", "block").html(
+        `<div class="tt-year">${year}</div>
+           <table>
+             <thead><tr><th></th><th>Brand</th><th>Tier</th><th>Avg price</th></tr></thead>
+             <tbody>
+               ${rows
+                 .map(
+                   (r) => `<tr>
+                     <td><span class="tt-swatch" style="background:${color(r.key)}"></span></td>
+                     <td>${r.brand}</td>
+                     <td>${r.tier}</td>
+                     <td class="tt-price">${priceFmt(r.price)}</td>
+                   </tr>`,
+                 )
+                 .join("")}
+             </tbody>
+           </table>`,
+      );
+
+      // Position next to the cursor, flipping/clamping to stay on screen
+      const node = tooltip.node();
+      const pad = 14;
+      let left = event.clientX + pad;
+      if (left + node.offsetWidth > window.innerWidth - 8) {
+        left = event.clientX - node.offsetWidth - pad;
+      }
+      const top = Math.min(
+        event.clientY + pad,
+        window.innerHeight - node.offsetHeight - 8,
+      );
+      tooltip.style("left", `${left}px`).style("top", `${top}px`);
+    })
+    .on("mouseleave", hideHover);
+
+  // ---------- Show/hide series toggled from the legend ----------
+  function applyVisibility() {
+    const display = (d) => (hiddenKeys.has(d[0]) ? "none" : null);
+    linesLayer.selectAll("path.series").style("display", display);
+    pointsLayer.selectAll("g.point-group").style("display", display);
+    d3.select("#legend")
+      .selectAll(".legend-item")
+      .style("opacity", (d) => (hiddenKeys.has(d[0]) ? 0.35 : 1));
+  }
+
+  // ---------- Update chart ----------
   function update() {
     const brands = getSelected("#brand-menu");
     const tiers = getSelected("#tier-menu");
 
-    // Empty selection = no filter on that attribute
     const filtered = data.filter(
       (d) =>
         (brands.length === 0 || brands.includes(d.brand)) &&
         (tiers.length === 0 || tiers.includes(d.tier)),
     );
 
-    // One line per brand/tier combination (only split on filters in use)
-    const keyOf = (d) =>
-      [brands.length ? d.brand : null, tiers.length ? d.tier : null]
-        .filter(Boolean)
-        .join(" · ") || "All EVs";
+    // Brand/tier labels per series for the tooltip. When a filter isn't in
+    // use, the line is an average across it, so show "All brands"/"All tiers".
+    const meta = new Map();
+
+    const keyOf = (d) => {
+      const key =
+        [brands.length ? d.brand : null, tiers.length ? d.tier : null]
+          .filter(Boolean)
+          .join(" · ") || "All EVs";
+      if (!meta.has(key)) {
+        meta.set(key, {
+          brand: brands.length ? d.brand : "All brands",
+          tier: tiers.length ? d.tier : "All tiers",
+        });
+      }
+      return key;
+    };
 
     const series = d3
       .rollups(
@@ -192,7 +303,6 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
         const pa = a[0].split(" · "),
           pb = b[0].split(" · ");
         if (tiers.length) {
-          // Group by brand (if used), then order tiers low to high
           const brandCmp = brands.length ? d3.ascending(pa[0], pb[0]) : 0;
           return (
             brandCmp ||
@@ -202,12 +312,16 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
         return d3.ascending(a[0], b[0]);
       });
 
-    // Show the message only when no lines will be drawn
+    currentSeries = series;
+    currentMeta = meta;
+    hideHover();
+
     emptyMsg
       .transition()
       .duration(300)
       .style("opacity", series.length === 0 ? 1 : 0);
 
+    // Lines
     linesLayer
       .selectAll("path.series")
       .data(series, (d) => d[0])
@@ -235,7 +349,46 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
           ),
       );
 
-    // Legend
+    // Points: one group per series, one circle per year
+    pointsLayer
+      .selectAll("g.point-group")
+      .data(series, (d) => d[0])
+      .join(
+        (enter) => enter.append("g").attr("class", "point-group"),
+        (update) => update,
+        (exit) =>
+          exit.call((e) =>
+            e.transition().duration(300).attr("opacity", 0).remove(),
+          ),
+      )
+      .attr("fill", (d) => color(d[0]))
+      .selectAll("circle")
+      .data(
+        (d) => d[1],
+        (p) => p.year,
+      )
+      .join(
+        (enter) =>
+          enter
+            .append("circle")
+            .attr("r", 4)
+            .attr("stroke", "#fff")
+            .attr("stroke-width", 1.5)
+            .attr("cx", (p) => x(p.year))
+            .attr("cy", (p) => y(p.avgPrice))
+            .attr("opacity", 0)
+            .call((e) => e.transition().duration(500).attr("opacity", 1)),
+        (update) =>
+          update.call((u) =>
+            u
+              .transition()
+              .duration(500)
+              .attr("cx", (p) => x(p.year))
+              .attr("cy", (p) => y(p.avgPrice)),
+          ),
+        (exit) => exit.remove(),
+      );
+
     // Legend
     const items = d3
       .select("#legend")
@@ -243,29 +396,21 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
       .data(series, (d) => d[0])
       .join((enter) => {
         const item = enter.append("span").attr("class", "legend-item");
-
         item.append("span").attr("class", "swatch");
-
         item.append("span").attr("class", "label");
-
         return item;
       });
 
     items.select(".swatch").style("background", (d) => color(d[0]));
-
     items.select(".label").text((d) => d[0]);
 
-    items.style("cursor", "pointer").on("click", function (event, d) {
-      const item = d3.select(this);
-      const hidden = !item.classed("is-hidden");
-
-      item.classed("is-hidden", hidden).style("opacity", hidden ? 0.35 : 1);
-
-      linesLayer
-        .selectAll("path.series")
-        .filter((series) => series[0] === d[0])
-        .style("display", hidden ? "none" : null);
+    items.style("cursor", "pointer").on("click", (event, d) => {
+      if (hiddenKeys.has(d[0])) hiddenKeys.delete(d[0]);
+      else hiddenKeys.add(d[0]);
+      applyVisibility();
     });
+
+    applyVisibility();
   }
 
   update(); // initial draw

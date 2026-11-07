@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 3 Interactive Visualization</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- <script src="https://cdn.jsdelivr.net/npm/d3@7"></script> -->
     <script src="global.js" type="module"></script>
   </head>
   <body>
@@ -16,7 +15,7 @@
     </header>
 
     <main>
-      <h2>When was the best time to invest in an electric vehicle?</h2>
+      <h2>Which electric vehicle brand has the highest price inflation?</h2>
 
       <div class="dropdown-filter">
         <details class="multi" id="brand-menu">
@@ -30,7 +29,7 @@
         </details>
       </div>
 
-      <figure class = "line-container">
+      <figure class="line-container">
         <svg
           id="line-chart"
           viewBox="0 0 700 400"
@@ -38,10 +37,11 @@
           aria-label="Line graph comparing brand and price inflation"
         ></svg>
         <div id="legend"></div>
-        <p class = "legend-hint">
-          Click a legend item to hide or show its line.
-        </p>
-        <figcaption>Caption goes here...</figcaption>
+        <p class="legend-hint">Click a legend item to hide or show its line.</p>
+        <figcaption>
+          Electrical vehicle prices over the years. Select one or multiple
+          brands, and even tiers (luxury level), to compare their prices.
+        </figcaption>
       </figure>
 
       <section>

@@ -191,9 +191,9 @@ details.multi .options label {
 
 .line-container {
   position: relative;
-  
 }
 
+/* Legend */
 #legend {
   position: absolute;
   top: 10px;
@@ -207,7 +207,6 @@ details.multi .options label {
 
   gap: 8px 14px;
   max-width: 75%;
-
 
   font-size: 13px;
 }
@@ -247,7 +246,7 @@ details.multi .options label {
   stroke-dasharray: 3 3;
 }
 
-#legend{
+#legend {
   position: static;
   display: flex;
   flex-wrap: wrap;
@@ -258,7 +257,7 @@ details.multi .options label {
   color: #333;
 }
 
-.legend-hint{
+.legend-hint {
   margin: 6px 0 14px;
   color: #666;
   font-size: 0.85rem;
@@ -266,13 +265,13 @@ details.multi .options label {
 }
 
 /* Brand and tier filter controls */
-.dropdown-filter{
+.dropdown-filter {
   gap: 12px;
   flex-wrap: wrap;
   margin-block: 18px;
 }
 
-.dropdown-filter details > summary{
+.dropdown-filter details > summary {
   padding: 8 px 14px;
   border: 1px solid #b8c2cc;
   border-radius: 6px;
@@ -280,20 +279,75 @@ details.multi .options label {
   color: #263746;
   font: inherit;
   cursor: pointer;
-  transition: background-color 0.15, border-color 0.15s;
+  transition:
+    background-color 0.15,
+    border-color 0.15s;
 }
 
-.dropdown-filter details>summary:hover {
+.dropdown-filter details > summary:hover {
   background: #f2f6fa;
   border-color: #6686a5;
 }
 
-.dropdown-filter details[open]>summary {
+.dropdown-filter details[open] > summary {
   background: #eaf1f8;
   border-color: #507ba3;
 }
 
-.dropdown-filter details>summary:focus-visible {
+.dropdown-filter details > summary:focus-visible {
   outline: 2px solid #507ba3;
   outline-offset: 3px;
+}
+
+/* Tooltip */
+.guide-line {
+  stroke: #888;
+  stroke-width: 1;
+  stroke-dasharray: 4 3;
+  pointer-events: none;
+}
+
+.chart-tooltip {
+  position: fixed;
+  z-index: 1000;
+  pointer-events: none;
+  padding: 0.5rem 0.7rem;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  font-size: 13px;
+}
+
+.chart-tooltip .tt-year {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.chart-tooltip table {
+  border-collapse: collapse;
+}
+
+.chart-tooltip th {
+  text-align: left;
+  font-weight: normal;
+  color: #666;
+  padding: 0 0.6rem 0.2rem 0;
+}
+
+.chart-tooltip td {
+  padding: 0.15rem 0.6rem 0.15rem 0;
+}
+
+.chart-tooltip .tt-price {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  padding-right: 0;
+}
+
+.tt-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
