@@ -1,10 +1,12 @@
-// import { csv } from "https://cdn.jsdelivr.net/npm/d3-fetch@3/+esm";
-
-// let brandSel = document.querySelector("#brand");
-// let tierSel = document.querySelector("#tier");
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
 
-d3.csv("data/cleaned_ev_data.csv", (d) => ({
+// Detect local server vs GitHub Pages
+const BASE_PATH =
+  location.hostname === "localhost" || location.hostname === "127.0.0.1"
+    ? "/" // Local server
+    : "/EV-Market-Research/"; // GitHub Pages repo name
+
+d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
   brand: d.brand,
   tier: d.market_segment,
   model: d.model,
