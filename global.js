@@ -61,8 +61,7 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
     );
   svg.append("g").call(d3.axisLeft(y).tickFormat(d3.format("$,")));
 
-  const linesLayer = svg.append("g")
-  .attr("clip-path", "url(#chart-clip)");
+  const linesLayer = svg.append("g");
   // Empty-state message (hidden until there's no data)
   const emptyMsg = svg
     .append("text")
@@ -159,6 +158,7 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
   });
 
   // ---------- Update chart ----------
+  
   function update() {
     const brands = getSelected("#brand-menu");
     const tiers = getSelected("#tier-menu");
@@ -264,6 +264,25 @@ items
 items
   .select(".label")
   .text((d) => d[0]);
+
+
+
+
+items
+  .style("cursor", "pointer")
+  .on("click", function (event, d) {
+    const item = d3.select(this);
+    const hidden = !item.classed("is-hidden");
+
+    item
+      .classed("is-hidden", hidden)
+      .style("opacity", hidden ? 0.35 : 1);
+
+    linesLayer
+      .selectAll("path.series")
+      .filter(series => series[0] === d[0])
+      .style("display", hidden ? "none" : null);
+  })
 }
 
   update(); // initial draw

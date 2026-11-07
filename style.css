@@ -235,3 +235,65 @@ details.multi .options label {
   font-size: 16px;
   font-style: italic;
 }
+
+/* Subtle horizontal guides */
+#line-chart .grid {
+  pointer-events: none;
+}
+
+#line-chart .grid line {
+  stroke: #dfe3e8;
+  stroke-opacity: 0.8;
+  stroke-dasharray: 3 3;
+}
+
+#legend{
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 14px;
+  max-width: 100%;
+  margin: 12px 0;
+  color: #333;
+}
+
+.legend-hint{
+  margin: 6px 0 14px;
+  color: #666;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* Brand and tier filter controls */
+.dropdown-filter{
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-block: 18px;
+}
+
+.dropdown-filter details > summary{
+  padding: 8 px 14px;
+  border: 1px solid #b8c2cc;
+  border-radius: 6px;
+  background: #fff;
+  color: #263746;
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 0.15, border-color 0.15s;
+}
+
+.dropdown-filter details>summary:hover {
+  background: #f2f6fa;
+  border-color: #6686a5;
+}
+
+.dropdown-filter details[open]>summary {
+  background: #eaf1f8;
+  border-color: #507ba3;
+}
+
+.dropdown-filter details>summary:focus-visible {
+  outline: 2px solid #507ba3;
+  outline-offset: 3px;
+}
