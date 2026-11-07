@@ -4,7 +4,7 @@
 // let tierSel = document.querySelector("#tier");
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
 
-d3.csv("../data/cleaned_ev_data.csv", (d) => ({
+d3.csv("data/cleaned_ev_data.csv", (d) => ({
   brand: d.brand,
   tier: d.market_segment,
   model: d.model,
@@ -22,33 +22,29 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-  
-
-    // Domains come from ALL data so the axes stay fixed while filtering
+  // Domains come from ALL data so the axes stay fixed while filtering
   const [dataMin, dataMax] = d3.extent(data, (d) => d.year);
   const x = d3
     .scaleLinear()
     .domain([dataMin - 0.5, dataMax + 0.5]) // half a year of padding each side
     .range([0, width]);
 
-  const minPrice = d3.min(data, d => d.price);
-  const maxPrice = d3.max(data, d => d.price);
+  const minPrice = d3.min(data, (d) => d.price);
+  const maxPrice = d3.max(data, (d) => d.price);
 
-  const y = d3.scaleLinear()
-  .domain([
-    minPrice * 0.95,
-    maxPrice * 1.05
-  ])
-  .nice()
-  .range([height, 0]);
+  const y = d3
+    .scaleLinear()
+    .domain([minPrice * 0.95, maxPrice * 1.05])
+    .nice()
+    .range([height, 0]);
 
   svg
-  .append("defs")
-  .append("clipPath")
-  .attr("id", "chart-clip")
-  .append("rect")
-  .attr("width", width)
-  .attr("height", height);
+    .append("defs")
+    .append("clipPath")
+    .attr("id", "chart-clip")
+    .append("rect")
+    .attr("width", width)
+    .attr("height", height);
 
   svg
     .append("g")
@@ -158,7 +154,7 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
   });
 
   // ---------- Update chart ----------
-  
+
   function update() {
     const brands = getSelected("#brand-menu");
     const tiers = getSelected("#tier-menu");
@@ -240,50 +236,35 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
     // Legend
     // Legend
     const items = d3
-  .select("#legend")
-  .selectAll(".legend-item")
-  .data(series, (d) => d[0])
-  .join((enter) => {
-    const item = enter
-      .append("span")
-      .attr("class", "legend-item");
+      .select("#legend")
+      .selectAll(".legend-item")
+      .data(series, (d) => d[0])
+      .join((enter) => {
+        const item = enter.append("span").attr("class", "legend-item");
 
-    item.append("span")
-      .attr("class", "swatch");
+        item.append("span").attr("class", "swatch");
 
-    item.append("span")
-      .attr("class", "label");
+        item.append("span").attr("class", "label");
 
-    return item;
-  });
+        return item;
+      });
 
-items
-  .select(".swatch")
-  .style("background", (d) => color(d[0]));
+    items.select(".swatch").style("background", (d) => color(d[0]));
 
-items
-  .select(".label")
-  .text((d) => d[0]);
+    items.select(".label").text((d) => d[0]);
 
+    items.style("cursor", "pointer").on("click", function (event, d) {
+      const item = d3.select(this);
+      const hidden = !item.classed("is-hidden");
 
+      item.classed("is-hidden", hidden).style("opacity", hidden ? 0.35 : 1);
 
-
-items
-  .style("cursor", "pointer")
-  .on("click", function (event, d) {
-    const item = d3.select(this);
-    const hidden = !item.classed("is-hidden");
-
-    item
-      .classed("is-hidden", hidden)
-      .style("opacity", hidden ? 0.35 : 1);
-
-    linesLayer
-      .selectAll("path.series")
-      .filter(series => series[0] === d[0])
-      .style("display", hidden ? "none" : null);
-  })
-}
+      linesLayer
+        .selectAll("path.series")
+        .filter((series) => series[0] === d[0])
+        .style("display", hidden ? "none" : null);
+    });
+  }
 
   update(); // initial draw
 });
