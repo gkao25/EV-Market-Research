@@ -45,6 +45,42 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
     );
   svg.append("g").call(d3.axisLeft(y).tickFormat(d3.format("$,")));
 
+  // Horizontal gridlines aligned with the y-axis ticks
+  const grid = svg
+    .append("g")
+    .attr("class","grid")
+    .attr("aria-hidden", "true")
+    .call(
+      d3.axisLeft(y)
+        .tickSize(-width)
+        .tickFormat("")
+    );
+
+  grid.select(".domain").remove();
+  grid.lower();
+
+  // X-axis title
+  svg
+    .append("text")
+    .attr("class", "axis-title")
+    .attr("x", width / 2)
+    .attr("y", height + 36)
+    .attr("text-anchor", "middle")
+    .attr("fill", "#444")
+    .attr("font-size", 12)
+    .text("Year");
+
+  // Y-axis title
+  svg.append("text")
+    .attr("class", "axis-title")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -height / 2)
+    .attr("y", -58)
+    .attr("text-anchor", "middle")
+    .attr("fill", "#444")
+    .attr("font-size", 12)
+    .text("Average price (USD)");
+
   const linesLayer = svg.append("g");
   // Empty-state message (hidden until there's no data)
   const emptyMsg = svg
@@ -142,6 +178,7 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
   });
 
   // ---------- Update chart ----------
+  
   function update() {
     const brands = getSelected("#brand-menu");
     const tiers = getSelected("#tier-menu");
@@ -247,6 +284,25 @@ items
 items
   .select(".label")
   .text((d) => d[0]);
+
+
+
+
+items
+  .style("cursor", "pointer")
+  .on("click", function (event, d) {
+    const item = d3.select(this);
+    const hidden = !item.classed("is-hidden");
+
+    item
+      .classed("is-hidden", hidden)
+      .style("opacity", hidden ? 0.35 : 1);
+
+    linesLayer
+      .selectAll("path.series")
+      .filter(series => series[0] === d[0])
+      .style("display", hidden ? "none" : null);
+  })
 }
 
   update(); // initial draw
