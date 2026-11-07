@@ -84,7 +84,7 @@ li {
 /* Sectioning elements */
 
 header {
-  padding-block: 1em;
+  padding-block: 24px 16px;
   text-align: center;
 }
 
@@ -92,7 +92,7 @@ main {
   background: white;
   color: var(--color-neutral-20);
   border-radius: 1rem;
-  padding: 0.1rem 2rem;
+  padding: 24px 32px;
 }
 
 /* Figures */
@@ -146,14 +146,7 @@ details.multi {
   position: relative;
 }
 
-details.multi summary {
-  cursor: pointer;
-  padding: 0.4rem 0.8rem;
-  border: 1px solid #999;
-  border-radius: 4px;
-  background: #fff;
-  user-select: none;
-}
+
 
 details.multi .options {
   position: absolute;
@@ -192,20 +185,14 @@ details.multi .options label {
 }
 
 #legend {
-  position: absolute;
-  top: 5px;
-  right: 20px;
-
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-
   gap: 8px 14px;
-  max-width: 75%;
-
-
+  max-width: 100%;
+  margin: 12px 0;
+  color: #333;
   font-size: 13px;
 }
 
@@ -244,16 +231,6 @@ details.multi .options label {
   stroke-dasharray: 3 3;
 }
 
-#legend{
-  position: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px 14px;
-  max-width: 100%;
-  margin: 12px 0;
-  color: #333;
-}
 
 .legend-hint{
   margin: 6px 0 14px;
@@ -263,26 +240,23 @@ details.multi .options label {
 }
 
 /* Brand and tier filter controls */
-.dropdown-filter{
-  gap: 12px;
+.dropdown-filter {
+  display: flex;
   flex-wrap: wrap;
-  margin-block: 18px;
+  gap: 12px;
+  margin: 18px 0;
 }
 
-.dropdown-filter details > summary{
-  padding: 8 px 14px;
+.dropdown-filter details>summary {
+  padding: 8px 14px;
   border: 1px solid #b8c2cc;
   border-radius: 6px;
   background: #fff;
   color: #263746;
   font: inherit;
   cursor: pointer;
-  transition: background-color 0.15, border-color 0.15s;
-}
-
-.dropdown-filter details>summary:hover {
-  background: #f2f6fa;
-  border-color: #6686a5;
+  user-select: none;
+  transition: background-color 0.15s, border-color 0.15s;
 }
 
 .dropdown-filter details[open]>summary {
@@ -293,4 +267,59 @@ details.multi .options label {
 .dropdown-filter details>summary:focus-visible {
   outline: 2px solid #507ba3;
   outline-offset: 3px;
+}
+
+/* Compact page header */
+header {
+  padding-block: 24px 16px;
+}
+
+header h1{
+  margin: 0 0 12px;
+  padding-bottom: 12px;
+  font-size: clamp(1.8rem, 3vm, 2.6rem);
+  line-height: 1.2;
+}
+
+header h2{
+  margin: 0 0 8px;
+  padding: 0;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+header p{
+  margin: 0;
+  color: #596575;
+  font-size: 0.95rem;
+}
+
+/* Space around the visualization and writeup */
+main {
+  padding: 24px 32px;
+}
+
+main > h2 {
+  margin-top: 0;
+  fort-size: clamp(1.3rem, 2.2vw, 1.8rem);
+  line-height: 1.3;
+}
+
+.team-members a{
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color:#aab8c6;
+  text-underline-offset: 3px;
+}
+
+.team-members a:hover {
+  color: #305f89;
+  text-decoration-color: currentColor;
+}
+
+.team-members a:focus-visible {
+  outline: 2px solid #507ba3;
+  outline-offset: 3px;
+  border-radius: 2px
 }

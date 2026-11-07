@@ -43,7 +43,10 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
         .tickValues(d3.range(dataMin, dataMax + 1)) // whole years only
         .tickFormat(d3.format("d")),
     );
-  svg.append("g").call(d3.axisLeft(y).tickFormat(d3.format("$,")));
+
+  const yAxis = svg
+    .append("g")
+    .call(d3.axisLeft(y).tickFormat(d3.format("$,")));
 
   // Horizontal gridlines aligned with the y-axis ticks
   const grid = svg
@@ -223,7 +226,36 @@ d3.csv("../data/cleaned_ev_data.csv", (d) => ({
         }
         return d3.ascending(a[0], b[0]);
       });
+    
+    // Scale the y-axis to the selected series' average prices
+    const maxAverage = d3.max(
+      series,
+      ([name,points]) => d3.max(points, point => point.avgPrice)
+    );
 
+    // Keep the previous scale when the selection has no valid prices
+
+    if (Number.isFinite(maxAverage) && maxAverage > 0) {
+      y.domain([0, maxAverage * 1.1]).nice();
+    }
+
+    // Update the axis and gridlines together
+    yAxis
+      .transition()
+      .duration(500)
+      .call(d3.axisLeft(y).tickFormat(d3.format("$,")));
+
+    grid
+      .transition()
+      .duration(500)
+      .call(
+        d3.axisLeft(y)
+          .tickSize(-width)
+          .tickFormat("")
+      );
+
+    grid.select(".domain").remove();
+    
     // Show the message only when no lines will be drawn
     emptyMsg
       .transition()
