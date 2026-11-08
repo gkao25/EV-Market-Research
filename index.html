@@ -56,7 +56,21 @@
 
       <section>
         <h3>Writeup</h3>
-        <p>Writeup goes here...</p>
+        <p>
+          Our goal with this EV Market Dataset was to create a visualization that reflects the price trends and impact of inflation on EV vehicles from 2020-2026 (available year range). We decided that the best way to do this would be through line graphs to show the price trend across the years. To analyze across brands, we added dropdown filters to compare brands against each other as well as the tiers (from high to low: ‘Luxury’, ‘Mid-range’, ‘Premium’, ‘Budget’).
+        </p>
+
+        <p>
+          Initial exploratory data analysis was done by Lucia, Neeraja, and Gloria, creating visualizations to gain an understanding of what the dataset contained and represented. Our scatterplot visualization shows the pricing of different brands across each tier, the line graph shows EV price by brand over time, and a correlation analysis heatmap with price is what drove our question to see how brands have reacted to price inflation. After deciding our research question, Benjamin cleaned the data so that it can be used in the final interactive visualization.
+        </p>
+
+        <p>
+          When creating the initial visualizations we noticed an issue with brand lines overlapping and having the same color. To handle the large range of brands in the dataset we hard-coded colors for each brand to avoid confusion.
+        </p>
+
+        <p>
+          For the viewer interaction, we chose to use a dropdown feature with boxes to indicate to viewers that they can select multiple brands/tiers to compare the EV vehicles. To further emphasize the price differences and allow for easier comparison, we chose to add a tooltip for each year showing the average price at the selected tier for each brand at that year. Lastly, we also added a dynamic y-axis that changes with the applied filters. The filters are also able to be toggled on and off to allow the viewer an easier viewing experience. 
+        </p>
       </section>
     </main>
   </body>
