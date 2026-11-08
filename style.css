@@ -185,8 +185,8 @@ details.multi .options label {
 }
 
 #line-chart {
-  width: 100%;
-  max-width: 800px;
+  width: 95%;
+  max-width: none;
 }
 
 .line-container {
@@ -242,7 +242,7 @@ details.multi .options label {
 
 #line-chart .grid line {
   stroke: #dfe3e8;
-  stroke-opacity: 0.8;
+  stroke-opacity: 0.7;
   stroke-dasharray: 3 3;
 }
 
@@ -260,7 +260,7 @@ details.multi .options label {
 .legend-hint {
   margin: 6px 0 14px;
   color: #666;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
