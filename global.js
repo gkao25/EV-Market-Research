@@ -16,6 +16,118 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
   const margin = { top: 20, right: 30, bottom: 40, left: 70 };
   const svgWidth = 600;
   const svgHeight = 400;
+  // Create a two-column layout for the chart and legend.
+const chartElement = document.querySelector("#line-chart");
+const legendElement =
+  document.querySelector("#legend") || document.createElement("div");
+
+legendElement.id = "legend";
+
+const layout = document.createElement("div");
+layout.className = "ev-chart-layout";
+chartElement.before(layout);
+
+const chartPanel = document.createElement("div");
+chartPanel.className = "ev-chart-panel";
+chartPanel.append(chartElement);
+
+const sidebar = document.createElement("aside");
+sidebar.className = "ev-legend-panel";
+sidebar.append(legendElement);
+
+layout.append(chartPanel, sidebar);
+
+// Override the legend's previous overlay positioning.
+Object.assign(legendElement.style, {
+  position: "static",
+  inset: "auto",
+  transform: "none",
+  display: "flex",
+  flexDirection: "column",
+  flexWrap: "nowrap",
+  alignItems: "stretch",
+  justifyContent: "flex-start",
+  width: "100%",
+  height: "auto",
+  margin: "0",
+  padding: "0",
+  gap: "12px",
+  boxSizing: "border-box",
+});
+
+// Make the SVG fit its chart column.
+d3.select(chartElement)
+  .attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`)
+  .attr("preserveAspectRatio", "xMidYMid meet")
+  .style("display", "block")
+  .style("position", "static")
+  .style("width", "100%")
+  .style("max-width", "100%")
+  .style("height", "auto");
+
+// Add the layout styles.
+const layoutStyles = document.createElement("style");
+
+layoutStyles.textContent = `
+  .ev-chart-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 200px;
+    gap: 8px;
+    align-items: start;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .ev-chart-panel {
+    min-width: 0;
+  }
+
+  .ev-legend-panel {
+    box-sizing: border-box;
+    min-width: 0;
+    max-height: 480px;
+    overflow-y: auto;
+    padding: 12px;
+    border-left: 1px solid #ddd;
+    text-align: left;
+  }
+
+  .ev-legend-panel #legend .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .ev-legend-panel #legend .swatch {
+    display: inline-block;
+    flex: 0 0 20px;
+    width: 20px;
+    height: 4px;
+  }
+
+  .ev-legend-panel #legend .label {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  @media (max-width: 900px) {
+    .ev-chart-layout {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .ev-legend-panel {
+      border-left: 0;
+      border-top: 1px solid #ddd;
+      max-height: 280px;
+    }
+  }
+`;
+
+document.head.append(layoutStyles);
+
   const width = svgWidth - margin.left - margin.right;
   const height = svgHeight - margin.top - margin.bottom;
 
@@ -84,7 +196,6 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
     .x((d) => x(d.year))
     .y((d) => y(d.avgPrice));
 
-  const color = d3.scaleOrdinal(d3.schemeTableau10);
   const priceFmt = d3.format("$,.0f");
 
   // ---------- State shared with the tooltip ----------
@@ -119,6 +230,18 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
     const brand = seriesName.split(" · ")[0];
 
     return brandColors[brand] || "#888888";
+  }
+
+  const tierLineStyles = {
+    luxury: null,
+    premium: "8,4",
+    "mid-range": "0,6",
+    budget: "8,4,2,4"
+  }
+
+  function getLineStyle(seriesKey) {
+    const tier = currentMeta.get(seriesKey)?.tier?.trim().toLowerCase();
+    return tierLineStyles[tier] ?? null;
   }
 
   // ---------- Multi-select checkbox dropdowns ----------
@@ -424,7 +547,13 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
           ),
       );
 
-    // Points: one group per series, one circle per year
+    linesLayer
+      .selectAll("path.series")
+      .attr("stroke-width", 2)
+      .attr("stroke-dasharray", d => getLineStyle(d[0]))
+      .attr("stroke-linecap", "round");
+
+    // Points: one group per series, onƒe circle per year
     pointsLayer
       .selectAll("g.point-group")
       .data(series, (d) => d[0])
@@ -476,7 +605,36 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
         return item;
       });
 
-    items.select(".swatch").style("background", (d) => getBrandColor(d[0]));
+    items.select(".swatch").each(function (d) {
+      const swatch =d3.select(this);
+
+      swatch
+        .style("background", "none")
+        .style("height", "12px");
+
+      const icon = swatch
+        .selectAll("svg")
+        .data([d])
+        .join("svg")
+        .attr("width", 24)
+        .attr("height", 12)
+        .attr("viewBox", "0 0 24 12")
+        .attr("aria-hidden", "true");
+
+      icon
+        .selectAll("line")
+        .data([d])
+        .join("line")
+        .attr("x1", 1)
+        .attr("x2", 23)
+        .attr("y1", 6)
+        .attr("y2", 6)
+        .attr("stroke", getBrandColor(d[0]))
+        .attr("stroke-width", 2)
+        .attr("stroke-linecap", "round")
+        .attr("stroke-dasharray", getLineStyle(d[0]));
+    });
+
     items.select(".label").text((d) => d[0]);
 
     items.style("cursor", "pointer").on("click", (event, d) => {

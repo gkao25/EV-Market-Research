@@ -197,9 +197,9 @@ details.multi .options label {
   max-width: none;
 }
 
-.line-container {
+/* .line-container {
   position: relative;
-}
+} */
 
 /* Legend */
 .line-container {
@@ -251,7 +251,7 @@ details.multi .options label {
   margin: 0;
   color: #666;
   font-size: 0.9rem;
-  text-align: right;
+  text-align: left;
 }
 
 .empty-msg {
@@ -412,4 +412,15 @@ main>h2 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+
+@media (max-width: 700px) {
+    .line-container {
+        grid-template-columns: 1fr;
+    }
+
+    .legend-panel {
+        border-left: 0;
+        border-top: 1px solid #ddd;
+    }
 }
