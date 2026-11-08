@@ -76,37 +76,35 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
   let currentSeries = [];
   let currentMeta = new Map(); // series key -> {brand, tier}
   const hiddenKeys = new Set(); // series hidden via the legend
-  //const color = d3.scaleOrdinal(d3.schemeTableau10);
   const brandColors = {
-  "Audi": "#1F77B4",          // Blue
-  "BMW": "#AEC7E8",           // Light blue
-  "BYD": "#FF7F0E",           // Orange
-  "Fisker": "#FFBB78",        // Light orange
-  "Ford": "#2CA02C",          // Green
-  "GM/Chevrolet": "#98DF8A",  // Light green
-  "Honda": "#D62728",         // Red
-  "Hyundai": "#FF9896",       // Light red
-  "Kia": "#9467BD",           // Purple
-  "Lucid": "#C5B0D5",         // Light purple
-  "Mercedes": "#8C564B",      // Brown
-  "NIO": "#C49C94",           // Light brown
-  "Polestar": "#E377C2",      // Pink
-  "Porsche": "#F7B6D2",       // Light pink
-  "Rivian": "#7F7F7F",        // Gray
-  "Tesla": "#BCBD22",         // Olive
-  "Toyota": "#DBDB8D",        // Light olive
-  "Volkswagen": "#17BECF",    // Cyan
-  "Volvo": "#9EDAE5",         // Light cyan
-  "Xiaomi": "#393B79"         // Dark indigo
+    Audi: "#1F77B4", // Blue
+    BMW: "#AEC7E8", // Light blue
+    BYD: "#FF7F0E", // Orange
+    Fisker: "#FFBB78", // Light orange
+    Ford: "#2CA02C", // Green
+    "GM/Chevrolet": "#98DF8A", // Light green
+    Honda: "#D62728", // Red
+    Hyundai: "#FF9896", // Light red
+    Kia: "#9467BD", // Purple
+    Lucid: "#C5B0D5", // Light purple
+    Mercedes: "#8C564B", // Brown
+    NIO: "#C49C94", // Light brown
+    Polestar: "#E377C2", // Pink
+    Porsche: "#F7B6D2", // Light pink
+    Rivian: "#7F7F7F", // Gray
+    Tesla: "#BCBD22", // Olive
+    Toyota: "#DBDB8D", // Light olive
+    Volkswagen: "#17BECF", // Cyan
+    Volvo: "#9EDAE5", // Light cyan
+    Xiaomi: "#393B79", // Dark indigo
   };
 
   // Get the brand color from the series name
   function getBrandColor(seriesName) {
-
     const brand = seriesName.split(" · ")[0];
 
     return brandColors[brand] || "#888888";
-  }  
+  }
 
   // ---------- Multi-select checkbox dropdowns ----------
   function buildMultiSelect(menuId, label, values) {
@@ -251,7 +249,7 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
                ${rows
                  .map(
                    (r) => `<tr>
-                     <td><span class="tt-swatch" style="background:${color(r.key)}"></span></td>
+                     <td><span class="tt-swatch" style="background:${getBrandColor(r.key)}"></span></td>
                      <td>${r.brand}</td>
                      <td>${r.tier}</td>
                      <td class="tt-price">${priceFmt(r.price)}</td>
@@ -393,7 +391,7 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
             e.transition().duration(300).attr("opacity", 0).remove(),
           ),
       )
-      .attr("fill", (d) => color(d[0]))
+      .attr("fill", (d) => getBrandColor(d[0]))
       .selectAll("circle")
       .data(
         (d) => d[1],
@@ -444,7 +442,7 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
 
     applyVisibility();
   }
-    /*return item;
+  /*return item;
   });
 
 items
