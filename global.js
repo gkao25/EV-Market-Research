@@ -14,7 +14,7 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
   price: +d.price_usd,
 })).then((data) => {
   const margin = { top: 20, right: 30, bottom: 40, left: 70 };
-  const svgWidth = 700;
+  const svgWidth = 600;
   const svgHeight = 400;
   const width = svgWidth - margin.left - margin.right;
   const height = svgHeight - margin.top - margin.bottom;
@@ -76,6 +76,37 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
   let currentSeries = [];
   let currentMeta = new Map(); // series key -> {brand, tier}
   const hiddenKeys = new Set(); // series hidden via the legend
+  //const color = d3.scaleOrdinal(d3.schemeTableau10);
+  const brandColors = {
+  "Audi": "#1F77B4",          // Blue
+  "BMW": "#AEC7E8",           // Light blue
+  "BYD": "#FF7F0E",           // Orange
+  "Fisker": "#FFBB78",        // Light orange
+  "Ford": "#2CA02C",          // Green
+  "GM/Chevrolet": "#98DF8A",  // Light green
+  "Honda": "#D62728",         // Red
+  "Hyundai": "#FF9896",       // Light red
+  "Kia": "#9467BD",           // Purple
+  "Lucid": "#C5B0D5",         // Light purple
+  "Mercedes": "#8C564B",      // Brown
+  "NIO": "#C49C94",           // Light brown
+  "Polestar": "#E377C2",      // Pink
+  "Porsche": "#F7B6D2",       // Light pink
+  "Rivian": "#7F7F7F",        // Gray
+  "Tesla": "#BCBD22",         // Olive
+  "Toyota": "#DBDB8D",        // Light olive
+  "Volkswagen": "#17BECF",    // Cyan
+  "Volvo": "#9EDAE5",         // Light cyan
+  "Xiaomi": "#393B79"         // Dark indigo
+  };
+
+  // Get the brand color from the series name
+  function getBrandColor(seriesName) {
+
+    const brand = seriesName.split(" · ")[0];
+
+    return brandColors[brand] || "#888888";
+  }  
 
   // ---------- Multi-select checkbox dropdowns ----------
   function buildMultiSelect(menuId, label, values) {
@@ -332,7 +363,7 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
             .attr("class", "series")
             .attr("fill", "none")
             .attr("stroke-width", 2)
-            .attr("stroke", (d) => color(d[0]))
+            .attr("stroke", (d) => getBrandColor(d[0]))
             .attr("d", (d) => line(d[1]))
             .attr("opacity", 0)
             .call((e) => e.transition().duration(500).attr("opacity", 1)),
@@ -341,7 +372,8 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
             u
               .transition()
               .duration(500)
-              .attr("d", (d) => line(d[1])),
+              .attr("d", (d) => line(d[1]))
+              .attr("stroke", (d) => getBrandColor(d[0])),
           ),
         (exit) =>
           exit.call((e) =>
@@ -401,7 +433,7 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
         return item;
       });
 
-    items.select(".swatch").style("background", (d) => color(d[0]));
+    items.select(".swatch").style("background", (d) => getBrandColor(d[0]));
     items.select(".label").text((d) => d[0]);
 
     items.style("cursor", "pointer").on("click", (event, d) => {
@@ -412,6 +444,17 @@ d3.csv(BASE_PATH + "data/cleaned_ev_data.csv", (d) => ({
 
     applyVisibility();
   }
+    /*return item;
+  });
+
+items
+  .select(".swatch")
+  .style("background", (d) => getBrandColor(d[0]));
+
+items
+  .select(".label")
+  .text((d) => d[0]);
+}*/
 
   update(); // initial draw
 });

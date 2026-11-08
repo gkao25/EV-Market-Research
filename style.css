@@ -142,6 +142,7 @@ figure {
   display: flex;
   gap: 1rem;
   margin: 1rem 0;
+  flex-direction: column;
 }
 
 details.multi {
@@ -177,6 +178,20 @@ details.multi .options label {
   padding: 0.2rem 0;
   white-space: nowrap;
   cursor: pointer;
+}
+
+.fliter-options {
+  display: flex;
+  gap: 1rem;
+}
+
+.select-caption {
+  display: block;
+  width: 100%;
+  font-size: 0.8rem;
+  color: gray;
+  margin: 0.5rem 0 0;
+  font-style: italic;
 }
 
 .clear-btn {
