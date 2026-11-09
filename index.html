@@ -40,6 +40,10 @@
           Select multiple brands and tiers to compare average EV prices across
           years.
         </p>
+        <p class="legend-hint">
+          Click a legend item to hide or show its line.
+          The y-axis rescales when filters change.
+        </p>
       </div>
 
       <figure class="line-container">
@@ -49,13 +53,9 @@
           role="img"
           aria-label="Line graph comparing brand and price inflation"
         ></svg>
-        <div class="legend-panel">
-          <p class="legend-hint">
-            Click a legend item to hide or show its line.
-            The y-axis rescales when filters change.
-          </p>
+        <aside class="legend-panel">
           <div id="legend"></div>
-        </div>
+        </aside>
         <figcaption>
           Average electrical vehicle prices over the years, filterable by brand
           and tier (luxury level).
@@ -91,11 +91,12 @@
 
         <p>
           When creating the initial visualizations we noticed an issue with
-          brand lines overlapping and having the same color. To handle the large
+          brand lines overlapping and tiers having the same color. To handle the large
           range of brands in the dataset, we hard-coded colors for each brand to
-          avoid confusion. Another interesting design choice was not including
-          axis labels; dollar signs ($) are written into every y-axis tick, and
-          years is a common x-axis, so we considered axis labels unnecessary
+          avoid confusion. Additionally, to handle the different tiers we assigned tiers 
+          a line graph styling (i.e dashed, solid, dot dash). Another interesting design
+          choice was not including axis labels; dollar signs ($) are written into every
+          y-axis tick, and years is a common x-axis, so we considered axis labels unnecessary
           "ink".
         </p>
 
@@ -105,10 +106,12 @@
           brands/tiers to compare the electric vehicle prices. To further
           emphasize the price differences and allow for easier comparison, we
           added tooltip for each year, showing the average price of the selected
-          brand and/or tier at that year. Lastly, we included a dynamic y-axis
-          that changes with the applied filters. The filters are also able to be
-          toggled on and off to allow the viewer an easier, less cluttered
-          viewing experience.
+          brand and/or tier at that year. The legend was moved from traditional 
+          top right to its own column on the right so that when adding multiple 
+          brands/tiers the legend would not overlap with the visualization. Lastly, 
+          we included a dynamic y-axis that changes with the applied filters. The 
+          filters are also able to be toggled on and off to allow the viewer an easier,
+          less cluttered viewing experience.
         </p>
       </section>
     </main>
