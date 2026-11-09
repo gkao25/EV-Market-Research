@@ -11,13 +11,33 @@
     <header>
       <h1>EV Market Inflation from 2020-2026</h1>
       <h2>EV Market Research Group</h2>
-      <p class = "team-members">
+      <p class="team-members">
         Members:
-        <a href="https://github.com/gkao25" target="_blank" rel="noopener noreferrer">Gloria Kao</a>,
-        <a href="https://github.com/neerajaupasani" target="_blank" rel="noopener noreferrer">Neeraja Upasani</a>,
-        <a href="https://github.com/xiaosiqaq-cjdl" target="_blank" rel="noopener noreferrer">Lucia Si</a>,
-        <a href="https://github.com/benly03" target="_blank" rel="noopener noreferrer">Benjamin Ly</a>
-        </p>
+        <a
+          href="https://github.com/gkao25"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Gloria Kao</a
+        >,
+        <a
+          href="https://github.com/neerajaupasani"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Neeraja Upasani</a
+        >,
+        <a
+          href="https://github.com/xiaosiqaq-cjdl"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Lucia Si</a
+        >,
+        <a
+          href="https://github.com/benly03"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Benjamin Ly</a
+        >
+      </p>
     </header>
 
     <main>
@@ -40,9 +60,9 @@
           Select multiple brands and tiers to compare average EV prices across
           years.
         </p>
-        <p class="legend-hint">
-          Click a legend item to hide or show its line.
-          The y-axis rescales when filters change.
+        <p class="select-caption">
+          Click a legend item to hide or show its line. The y-axis rescales when
+          filters change.
         </p>
       </div>
 
@@ -83,21 +103,21 @@
           with price is what drove our question to see how brands have reacted
           to price inflation. After deciding our research question, Benjamin
           cleaned the data so that it can be used in the final interactive
-          visualization. The cleaning process consisted of creating a new csv 
-          file where the only variables kept were; brand, market_segment, model, 
-          year, price_usd. Using this data we were able to find the average price 
-          of a brand for every year at a specific tier.
+          visualization. The cleaning process consisted of creating a new csv
+          file where the only variables kept were; brand, market_segment, model,
+          year, price_usd. Using this data we were able to find the average
+          price of a brand for every year at a specific tier.
         </p>
 
         <p>
           When creating the initial visualizations we noticed an issue with
-          brand lines overlapping and tiers having the same color. To handle the large
-          range of brands in the dataset, we hard-coded colors for each brand to
-          avoid confusion. Additionally, to handle the different tiers we assigned tiers 
-          a line graph styling (i.e dashed, solid, dot dash). Another interesting design
-          choice was not including axis labels; dollar signs ($) are written into every
-          y-axis tick, and years is a common x-axis, so we considered axis labels unnecessary
-          "ink".
+          brand lines overlapping and tiers having the same color. To handle the
+          large range of brands in the dataset, we hard-coded colors for each
+          brand to avoid confusion. Additionally, to handle the different tiers
+          we assigned tiers a line graph styling (i.e dashed, solid, dot dash).
+          Another interesting design choice was not including axis labels;
+          dollar signs ($) are written into every y-axis tick, and years is a
+          common x-axis, so we considered axis labels unnecessary "ink".
         </p>
 
         <p>
@@ -106,12 +126,12 @@
           brands/tiers to compare the electric vehicle prices. To further
           emphasize the price differences and allow for easier comparison, we
           added tooltip for each year, showing the average price of the selected
-          brand and/or tier at that year. The legend was moved from traditional 
-          top right to its own column on the right so that when adding multiple 
-          brands/tiers the legend would not overlap with the visualization. Lastly, 
-          we included a dynamic y-axis that changes with the applied filters. The 
-          filters are also able to be toggled on and off to allow the viewer an easier,
-          less cluttered viewing experience.
+          brand and/or tier at that year. The legend was moved from traditional
+          top right to its own column on the right so that when adding multiple
+          brands/tiers the legend would not overlap with the visualization.
+          Lastly, we included a dynamic y-axis that changes with the applied
+          filters. The filters are also able to be toggled on and off to allow
+          the viewer an easier, less cluttered viewing experience.
         </p>
       </section>
     </main>
